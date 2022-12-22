@@ -1,0 +1,47 @@
+.events_component_1 {
+    background: url("../../../public/images/eventbg.jpg") no-repeat center center fixed;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 66px;
+    padding-bottom: 66px;
+    padding-left: 120px;
+  
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .events_1 h1 {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 76px;
+    color: #ffffff;
+  }
+
+  .events_1 h1:hover,
+.events_2:hover {
+  text-decoration: underline;
+  text-decoration-color: #1e73be;
+  text-decoration-thickness: 5px;
+}
+
+.events_1 h1 {
+    font-size: 30px;
+  }
+
+.gallery_main {
+    padding: 50px 50px;
+    padding-bottom: 150px;
+    max-width: 85vw;
+}
+
+.img-container {
+    padding: 0px 15px;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

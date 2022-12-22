@@ -1,0 +1,149 @@
+.Login_main{
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.Login_component_2{
+    background: url(../../../public/assets/images/Rectangle\ 75.png) no-repeat center;
+    background-size: cover;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 50px;
+    align-items: center;
+    font-weight: 400;
+    height: 300px;
+    font-size: 20px;
+    line-height: 38px;
+    flex-direction: column;
+}
+
+.login_component_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:50px;
+    
+height: 710px;
+    background-color:#FFE7EB; 
+}
+
+.login_information{
+    background-color: #ffffff;
+    padding: 30px 50px;
+    width: 525px;
+    height: 568px;
+}
+
+.login_info_head{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 41px;
+}
+
+.id , .pass{
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 25px;
+}
+input{
+        background: #FFFFFF;
+    border: 1px solid #8692A6;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    width: 426px;
+    height: 64px;
+    padding: 20px;
+}
+
+.signup{
+    background: #1E73BE;
+    padding: 50px 50px;
+    width: 520px;
+    height: 568px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: centre;
+}
+
+
+.log_in_btn{
+    width: 426px;
+    height: 64px;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 25px;
+    cursor:pointer;
+}
+
+.forgot{
+    margin-top: 40px;
+    text-align: right;
+
+}
+
+.signup_head{
+    font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+color: #FFFFFF;
+}
+
+.signup_component{
+    font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+margin-bottom: 234px;
+color: #FFFFFF;
+
+}
+.signup_btn{
+    
+}
+
+.signup_in_btn{
+    width: 426px;
+    height: 64px;
+    background-color: #ffffff;
+    color: #1E73BE;
+    font-size: 18px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1100px) {
+   
+    .Login_component_2{
+        margin: 0;
+        
+    }
+    .login_component_1{
+        flex-direction: column;
+        height: 160vh;
+    }
+    .login_info_head{
+        font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    }
+    .id , .pass{
+        font-size: 14px;
+    }
+    
+    .signup{
+        
+height: 248px;
+    }
+    .signup_component{
+        margin-bottom: initial;
+        margin-bottom: 10px;
+    }
+    .events_component_1{
+        height: 300px;
+    }
+}

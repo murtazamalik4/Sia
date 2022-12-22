@@ -1,0 +1,183 @@
+.EventsFacilityBooking_component{
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+    margin: 50px 123px 90px 123px;
+    padding-top: 0.2px;
+    padding-bottom: 30px;
+
+
+}
+
+.EventsFacilityBookingConfirmed_main_one{
+    width: 55%;
+}
+
+.booking_confirmed_flex{
+    background: #F2FCF6;
+    backdrop-filter: blur(4px);
+    
+    /* Note: backdrop-filter has minimal browser support */
+    
+    margin: 43px 84px;
+    
+    padding-top: 18px;
+    padding-left: 34px;
+    padding-bottom: 18px;
+    padding-right: 300px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.booking_confirmed_desc div:nth-child(1){
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 165%;
+    /* or 26px */
+
+    letter-spacing: 0.005em;
+
+    /* secondary */
+
+    color: #1E73BE;
+}
+
+.booking_confirmed_desc div:nth-child(2){
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 165%;
+    /* or 26px */
+
+    letter-spacing: 0.005em;
+
+    /* body text */
+
+    color: #54595F;
+}
+
+.EventsFacilityBookingConfirmed_main{
+    display: flex;  
+    justify-content: space-between;
+    margin: 23px 84px;
+   
+}
+
+.EventsFacilityBookingConfirmed_main_head{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 165%;
+    margin-bottom: 20px;
+
+    letter-spacing: 0.005em;
+
+    /* secondary */
+
+    color: #1E73BE;
+}
+
+.EventsFacilityBookingConfirmed_main_flex{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 32px;
+}
+
+.EventsFacilityBookingConfirmed_main_flex .label{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 165%;
+    /* or 26px */
+
+    letter-spacing: 0.005em;
+    
+    color: #111118;
+    margin-bottom: 8px;
+
+}
+
+.EventsFacilityBookingConfirmed_main_flex .down{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 165%;
+    /* or 26px */
+
+    letter-spacing: 0.005em;
+
+    /* body text */
+
+    color: #54595F;
+}
+
+.EventsFacilityBookingConfirmed_main_two div{
+    font-weight: 700;
+font-size: 16px;
+line-height: 165%;
+text-align: center;
+margin-top: 16px;
+
+letter-spacing: 0.005em;
+text-decoration-line: underline;
+
+/* secondary */
+
+color: #1E73BE;
+}
+
+.EventsFacilityBookingConfirmed_main_two img{
+    height: 330px
+}
+
+.booking_thank_You{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 165%;
+    margin-bottom: 9px;
+    /* or 26px */
+
+    letter-spacing: 0.005em;
+
+    color: #111118;
+}
+
+
+@media screen and  (max-width: 900px) {
+    .EventsFacilityBooking_component{
+        margin: initial;
+        margin-bottom: 50px;
+    }
+    .EventsFacilityBookingConfirmed_main_one{
+        width: 100%;
+    }
+    .booking_confirmed_flex{
+        padding: initial;
+        padding:17px 30px 9px 18px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px;
+    }
+
+    .EventsFacilityBookingConfirmed_main{
+        margin: initial;
+        margin: 30px;
+       
+    }
+    .EventsFacilityBookingConfirmed_main{
+        flex-direction: column-reverse;
+    }
+    .EventsFacilityBookingConfirmed_main_one{
+        width: 100%;
+    }
+    
+    .EventsFacilityBookingConfirmed_main_two {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .EventsFacilityBookingConfirmed_main_flex{
+       width: 100%;
+    }
+    
+}

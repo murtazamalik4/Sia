@@ -1,0 +1,37 @@
+.card_membership{
+    margin-bottom: 90px;
+     padding: 22px 120px 0 120px;
+}
+
+.formInnerDivider{
+    display: flex;
+    gap: 50px;
+}
+
+.formInnerDivider input {
+    height: 40px;
+}
+
+.card_membership_header{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.card_membership_header2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+@media (width < 960px) {
+    .formInnerDivider{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .formInnerDivider1{
+        flex-direction: row;
+        gap: 30px;
+    }
+}

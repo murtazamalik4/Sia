@@ -1,0 +1,90 @@
+.membership_head{
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+}
+
+.membership_desc{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.SIA_membership{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.card{
+    width:22vw;
+    border: 0.5px solid #1877F2;
+    margin: 30px 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    /* height: 550px; */
+    
+    
+    
+}
+
+
+.card ul{
+    list-style: none;
+    font-weight: 500;
+    
+font-size: 14px;
+}
+
+.card ul li:before{
+    content:'✓';
+}
+
+.card ul li{
+    margin: 8px;
+}
+.card_head{
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 18px;
+    background: #223A73;
+    padding: 19px 36px;
+    
+}
+
+.card_money{
+    font-weight: 700;
+font-size: 56px;
+}
+
+.membership_hr{
+    width: 80%;
+    border: 0.5px solid #1877F2;
+    height: initial;
+    margin-top: 130px;
+}
+
+.membership_head_2{
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    
+}
+.membership_desc_2{
+    font-weight: 400;
+font-size: 16px;
+text-align: center;
+}
+
+
+@media only screen and (max-width: 1035px) {
+   .SIA_membership{
+    flex-direction: column;
+   }
+   .card{
+    width: 80vw;
+   }
+    
+}

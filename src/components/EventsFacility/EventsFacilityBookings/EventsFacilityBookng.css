@@ -1,0 +1,251 @@
+.eventsFacilityBookingCard{
+    display: flex;
+    padding: 50px 150px;
+    margin-bottom: 40px;
+    
+}
+.events_amenties_card{
+    display: flex;
+    flex-direction: row; 
+
+}
+
+.events_amenties{
+    font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+margin-bottom: 38px;
+margin-top: 48px;
+/* identical to box height, or 133% */
+}
+
+.events_amenties_one div , .events_amenties_two div{
+    font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+margin-bottom: 30px;
+
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+
+/* Heading Text */
+
+color: #12101C;
+}
+
+.events_amenties_one{
+    margin-right: 48px;
+}
+.events_amenties_card img{
+    margin-right: 20px;
+}
+
+
+.EventsFacilityBooking_card_two{
+    background: #FFFFFF;
+    padding: 24px;
+    height: 530px;
+/* gray/200 */
+
+border: 1px solid #E5E7EB;
+/* shadow-xl */
+width: 40%;
+
+box-shadow: 0px 20px 25px rgba(31, 41, 55, 0.1), 0px 10px 10px rgba(31, 41, 55, 0.04);
+border-radius: 8px;
+}
+
+.EventsFacilityBooking_card_one{
+    width: 60%;
+    margin-right: 40px;
+}
+
+.SportsEvents_info{
+    border-top:1px solid #BCD7F7;
+    border-bottom:1px solid #BCD7F7 ;
+    padding: 30px 0px;
+}
+.SportsEvents_info_head{
+    font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+}
+
+.timing_flex_main{
+    border-bottom: 1px solid #E5E7EB;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.EventsFacilityBooking_card_two_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.EventsFacilityBooking_card_two_head div:nth-child(1){
+    font-weight: 700;
+font-size: 20px;
+line-height: 17px;
+}
+
+.EventsFacilityBooking_card_two_head div:nth-child(2) span{
+    font-weight: 700;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+
+
+/* secondary */
+
+color: #1E73BE;
+}
+
+.EventsFacilityBooking_card_two_head div:nth-child(2){
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+
+/* body text */
+
+color: #54595F;
+}
+
+.EventsFacilityBooking_card_two_input{
+    padding: 4px;
+    /* white */
+
+background: #FFFFFF;
+border: 1px solid #BCD7F6;
+margin-bottom: 28px;
+border-radius: 8px;
+}
+
+.Card_two_input{
+    justify-content: space-between;
+    display: flex;
+}
+.card_two_input_one div{
+    margin-bottom: 10px;
+}
+
+.card_two_input_one label{
+    font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+
+/* Heading Text */
+
+color: #12101C;
+}
+
+.card_two_input_one select{
+    border: none;
+    width: 100%;
+    
+}
+
+.card_two_input_one select:focus{
+    
+  outline: none;
+  
+}
+
+.card_input_margin{
+    margin-top: 20px;
+}
+
+
+
+
+.timing_flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.timing_flex .left{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+
+/* Heading Text */
+margin-bottom: 8px;
+
+color: #12101C;
+}
+
+.timing_flex .right{
+    font-weight: 700;
+    margin-bottom: 8px;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Heading Text */
+
+color: #12101C; 
+}
+
+
+.facility_booking_btn{
+    width: 100%;
+    border: none;
+}
+
+.facility_booking_map img{
+    width: 172%;
+}
+
+
+
+.events_facility_desc{
+    margin-bottom: 20px;
+}
+
+.FacilityEvent_info {
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and  (max-width: 900px) {
+    .eventsFacilityBookingCard{
+       padding: 10px 30px;
+       flex-direction: column;
+        
+    }
+    .facility_booking_map img{
+        width: 100%;
+    }
+    .EventsFacilityBooking_card_one{
+        width: 100%;
+        margin-right: 40px;
+    }
+    .EventsFacilityBooking_card_two{
+        width: 100%;
+        margin-top: 10px;
+    }  
+    .events_amenties_card{
+        flex-direction: column;
+    }
+    
+}

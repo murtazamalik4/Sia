@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import '~antd/dist/antd.css';
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.nav-chit-club.tparrows {
+  cursor: pointer;
+  background: transparent;
+  width: 107px;
+  height: 51px;
+  line-height: 51px;
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  border: 3px solid #fff;
+  color: #ffffff;
+  box-sizing: border-box;
+  -webkit-transition: border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  -ms-transition: border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  transition: border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease
+}
+
+.nav-chit-club.tparrows.rs-touchhover {
+  background: #fff;
+  color: #12101C
+}
+
+.nav-chit-club.tparrows:before {
+  font-family: "fontello" !important;
+  font-size: 3.4rem;
+  display: block;
+  line-height: 2.8rem;
+  text-align: center;
+  color: #ffffff;
+  -webkit-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  transition: color 0.3s ease
+}
+
+.nav-chit-club.tparrows.rs-touchhover:before {
+  color: #12101C
+}
+
+.nav-chit-club.tparrows.tp-leftarrow:before {
+  content: "<" !important
+}
+
+.nav-chit-club.tparrows.tp-rightarrow:before {
+  content: ">" !important
+}
+
+.chit-club-bullets .tp-bullet {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  background-color: transparent;
+  border: 3px solid transparent;
+  -webkit-transition: background 0.3s ease, border-color 0.3s ease;
+  transition: background 0.3s ease, border-color 0.3s ease;
+  position: absolute
+}
+
+.chit-club-bullets .tp-bullet.selected,
+.chit-club-bullets .tp-bullet.rs-touchhover {
+  border-color: #FFC94A;
+  background-color: #FFC94A
+}
+
+.chit-club-bullets .tp-bullet:after {
+  content: ' ';
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  -webkit-transition: background 0.3s ease, border-color 0.3s ease;
+  transition: background 0.3s ease, border-color 0.3s ease
+}
+
+.chit-club-bullets .tp-bullet.rs-touchhover:after,
+.chit-club-bullets .tp-bullet.selected:after {
+  background-color: #FFC94A
+}
+
+.margin-bottom-extra {
+  padding-bottom: 120px;
+}
+
+button.ant-drawer-close {
+  margin: 0;
+  padding: 0;
+  margin-right: 12px;
+}
+
+.ant-image {
+  width: 100%;
+}

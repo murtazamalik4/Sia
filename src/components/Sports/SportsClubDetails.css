@@ -1,0 +1,275 @@
+.sportClub_head div:nth-child(1){
+    font-weight: 800;
+font-size: 48px;
+line-height: 150%;
+/* or 72px */
+color: #12101C;
+
+}
+.sportClub_head{
+    padding: 50px 150px;
+}
+.sportClub_img{
+    padding: 50px 150px;
+}
+.SportsClub_info_card{
+    padding: 50px 150px;
+}
+.sportClub_head div:nth-child(2){
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    padding: 8px 14px;
+    background: #EDFFF9;
+    border-radius: 6px;
+    /* identical to box height */
+    text-align: center;
+    width: 176px;
+    color: #00AB6F;
+}
+
+.sportsClub_desc{
+    padding: 20px 95px 20px 150px;
+    margin-bottom: 100px;
+
+}
+
+.sportsClub_desc_info{
+    font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+padding-bottom: 48px;
+
+font-feature-settings: 'liga' off;
+
+/* Heading Text */
+
+color: #12101C;
+}
+.SportsClub_info{
+    border-top: 1px solid #BCD7F7;
+    border-bottom: 1px solid #BCD7F7;
+    padding: 48px 0;
+    margin-bottom: 50px;
+}
+.SportsClub_timing{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    
+}
+.sportsClub_desc_head{
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+/* Heading Text */
+
+color: #12101C;
+}
+.SportsClub_info_head{
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+margin-bottom: 32px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+
+/* Heading Text */
+
+color: #12101C;
+}
+
+.SportsClub_timing_1 div:nth-child(1) , .SportsClub_timing_2 div:nth-child(1), .SportsClub_timing_3 div:nth-child(1){
+    font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+/* or 27px */
+
+
+/* Heading Text */
+
+color: #12101C;
+}
+
+.SportsClub_timing_1 div:nth-child(2),.SportsClub_timing_2 div:nth-child(2),.SportsClub_timing_2 div:nth-child(2){
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+
+/* Heading Text */
+
+color: #12101C;
+}
+
+#searchSports{
+    font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height, or 120% */
+
+text-align: justify;
+
+/* body text */
+
+color: #54595F;
+border: 1px solid #E6EBF1;
+border-radius: 8px;
+padding: 10px 11px;
+height: 41px;
+width: 50%;
+
+}
+
+.sportClub_members_one{
+    font-weight: 600;
+font-size: 18px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+/* Heading Text */
+
+height: 50px;
+
+padding-top: 17px;
+padding-left: 22px;
+padding-bottom: 19px;
+color: #12101C
+}
+
+
+.sportClub_members_two{
+    padding-bottom: 19px;
+    font-weight: 600;
+font-size: 18px;
+line-height: 32px;
+padding-top: 17px;
+padding-left: 22px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+/* Heading Text */
+
+color: #12101C;
+background-color: #F2FCF6;;
+height: 50px;
+}
+
+
+
+#sportsClub_select select, #sportsClub_select option{
+    width: 100%;
+    height: 64px;
+    background: #F2FCF6;
+    padding: 17px 6px 19px 22px;
+    border: none;
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 32px;
+color: #1E73BE;
+}
+
+
+.JoinOurClub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1E1E1E;
+    padding: 50px 150px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.FacilityEvent_main{
+        margin-top: -30px;
+        padding: 0 150px;
+        margin-bottom: 90px;
+}
+.JoinOurClub_one{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 77px;
+    /* identical to box height, or 160% */
+
+    font-feature-settings: 'liga' off;
+
+    color: #F31237;
+}
+
+.JoinOurClub_one:hover{
+    text-decoration: underline;
+    text-decoration-color: #1e73be;
+    text-decoration-thickness: 5px;
+}
+
+.JoinOurClub_two{
+    font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+
+
+    color: #FFFFFF;
+}
+.JoinOurClub_two:hover{
+    
+    text-decoration: underline;
+    text-decoration-color: #1e73be;
+    text-decoration-thickness: 5px;
+}
+
+.JoinOurClub_btn{
+    width: initial;
+    height: initial;
+    border: none;
+  
+    
+}
+@media screen and (max-width:900px){
+    .SportsClub_timing{
+        width: 100%;
+    }
+
+    .sportClub_head{
+        padding: 10px 30px;
+    }
+    .sportClub_img{
+        padding: 10px 30px;
+    }
+    .sportsClub_desc{
+        padding: 20px 30px;
+    }
+    .JoinOurClub{
+       flex-direction: column;
+        padding: 10px 30px;
+        text-align: center;
+        
+    }
+    .JoinOurClub_one{
+        font-size: 35px;
+    }
+    .FacilityEvent_main{
+        margin-top: -60px;
+        padding: 0 10px;
+        margin-bottom: 20px;
+}
+    
+
+    
+}

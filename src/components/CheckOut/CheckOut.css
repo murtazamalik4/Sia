@@ -1,0 +1,282 @@
+.checkout{
+    display: flex;
+    justify-content: center;
+    margin-top: 76px;
+}
+
+.membership_summary{
+    margin-right: 48px;
+}
+.checkout_form{
+    padding-left: 48px;
+    margin-bottom: 150px;
+}
+
+
+.membership_summary{
+    background: #F8FAFC;
+    border-radius: 16px;
+    padding: 17px 24px;
+    height: 100%;
+}
+
+.membership_head{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.membership_plan{
+
+    background: #F8FAFC;
+    border: 1px solid #E3E8EF;
+    backdrop-filter: blur(8px);
+    border-radius: 12px;  
+    padding: 22px 20px;
+    margin-bottom: 16px;
+}
+.discount{
+    font-weight: 700;
+font-size: 16px;
+line-height: 165%;
+/* or 26px */
+
+letter-spacing: 0.005em;
+
+/* Heading Text */
+
+color: #12101C;
+
+}
+
+.membership_plan_{
+    font-weight: 700;
+    font-size: 16px; 
+    display: flex; 
+    justify-content: space-between;
+}
+.price{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 165%;
+    /* or 26px */
+
+    letter-spacing: 0.005em;
+
+    /* Heading Text */
+
+    color: #12101C;
+}
+
+.price_title{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 165%;
+/* or 26px */
+
+letter-spacing: 0.005em;
+
+/* body text */
+
+color: #54595F;
+}
+
+.membership_plan_ div:nth-child(2){
+    color: #1E73BE;  
+    font-weight: 700;
+    font-size: 16px;   
+}
+
+.membership_plan:nth-child(2){
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.buttonInside{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: 2px solid #4B7DF3;
+    box-shadow: 0px 0px 0px 4px #DEE9FC;
+    border-radius: 12px;
+    height: 50px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.buttonInside input{
+    flex-grow: 2;
+    border: none;
+    height: 90%;
+    margin: initial;
+    padding: initial;
+
+    
+    
+}
+.buttonInside input:focus{
+    outline: none;
+}
+
+#apply{
+    border:initial;
+    padding: initial;
+    margin: initial;
+
+     background-color: initial;
+    color: #4B7DF3;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.checkout_price{
+    border-top:  1px solid #E3E8EF;
+    border-bottom: 1px solid #E3E8EF;
+}
+
+.checkout_price div:nth-child(1),.checkout_price div:nth-child(2),.checkout_price div:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+}
+.checkout_price{
+    padding: 3px;
+}
+
+.checkout_total{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+
+.checkout_form{
+    border-left:0.2px solid #E6EBF1;
+    
+}
+
+.checkout_form div :nth-child(1){
+    display: flex;
+}
+
+.checkout_form div:nth-child(1) label , .checkout_form div:nth-child(2),.checkout_form div:nth-child(3){
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 165%;
+    /* or 26px */
+
+    letter-spacing: 0.005em;
+
+    /* Gray/900 */
+
+    color: #111729;
+}
+
+.checkout_form div:nth-child(1) input ,.checkout_form div:nth-child(2) input,.checkout_form div:nth-child(3) input{
+    border: 1px solid #E3E8EF;
+    box-shadow: 0px 0px 0px 4px #F4EBFF;
+    border: 1px solid #E3E8EF;
+    padding: 11px 16px;  
+    height: 44px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.checkout_form div:nth-child(4) div{
+    display: flex;
+    flex-direction:column;
+}
+
+.checkout_form div:nth-child(4) div input{
+   width: 100%;
+}    
+.checkout_form div:nth-child(4){
+    display: flex;
+    flex-direction:row;
+    
+    width: 100%;
+    
+} 
+
+.checkout_form div:nth-child(4) div:nth-child(1){
+    
+    
+     margin-right: 20px;
+    
+} 
+
+
+.checkout_form div:nth-child(5) div{
+    display: flex;
+    flex-direction:column;
+}
+
+.checkout_form div:nth-child(5) div input{
+   width: 100%;
+}    
+.checkout_form div:nth-child(5){
+    display: flex;
+    flex-direction:row;
+    
+    width: 100%;
+    
+} 
+
+.checkout_form div:nth-child(5) div:nth-child(1){
+    
+    
+     margin-right: 20px;
+    
+} 
+
+#checkbox{
+    width: initial;
+    padding: initial;
+    margin: initial;
+    height: initial;
+    margin-right: 10px;
+}
+
+
+.t_and_c{
+    display: flex;
+
+}
+
+.checkout_form label{
+    margin-bottom: 10px;
+}
+.checkout_form button{
+    width: 100%;
+    border: none;
+}
+
+@media only screen and (max-width: 1077px) {
+        .checkout{
+            flex-direction: column;
+        }
+        .membership_summary{
+            width: 100%;
+            margin-top:-75px;
+            border-radius: 0px;
+        }
+        
+        .checkout_form input{
+            width: 95%;
+        }
+
+        .card_info div{
+            width: 46.5%;
+        }
+  }
+
+@media only screen and (max-width: 610px) {
+    .card_info div{
+        width: 45%;
+    }
+}

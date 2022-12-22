@@ -1,0 +1,105 @@
+.recommended{
+    color: #F31237;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+
+}
+.Card_Events{
+    padding: 120px;
+}
+
+.FacilityEvent_main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    
+}
+
+.FacilityEvent img{
+    width: 100%;
+}
+.FacilityEvent{
+   width: 49%;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+.FacilityEvent_name{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    /* or 48px */
+
+
+    color: #12101C;
+}
+
+.FacilityEvent_desc{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    color: rgba(18, 16, 28, 0.6);
+
+}
+
+.FacilityEvent_info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.FacilityEvent_timings div:nth-child(1),.FacilityEvent_fees div:nth-child(1), .FaciltyEvent_booking_hrs div:nth-child(1){
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+
+    /* Heading Text */
+
+
+    color: #12101C;
+}
+
+
+.FacilityEvent_timings div:nth-child(2),.FacilityEvent_timings div:nth-child(3),.FacilityEvent_fees div:nth-child(2),.FacilityEvent_fees div:nth-child(3) .FaciltyEvent_booking_hrs div:nth-child(2){
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+ margin: 8px 0px;
+/* or 24px */
+
+
+/* Heading Text */
+
+color: #12101C;
+}
+
+.facilityEvent_book{
+    border: none;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 900px) {
+    .FacilityEvent_main{
+        flex-direction: column;
+        
+    }
+    .FacilityEvent{
+        width: 100%;
+        margin-bottom: 20px;
+     }
+   
+     .Card_Events{
+        padding: 20px;
+     }
+}

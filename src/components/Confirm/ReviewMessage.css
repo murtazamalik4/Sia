@@ -1,0 +1,65 @@
+.Review_confirm{
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+    width: 80vw;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 72px;
+    margin-bottom: 90px;
+    
+}
+
+.tick_icon{
+    background: #D1FADF;
+    border-radius: 133px;
+    width: 236px;
+    height: 236px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review_msg_1{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.review_msg_2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 55px;
+}
+
+@media only screen and (max-width: 660px) {
+        .tick_icon{
+            width: 124px;
+            height: 124px;
+        }
+        .tick_icon img{
+            height: 54.27293014526367px;
+            width: 61.98267364501953px;
+            left: 32.80859375px;
+            top: 36.763671875px;
+            border-radius: 0px;
+
+        }
+
+        .review_msg_1{
+            font-size: 14px;
+        }
+
+        .review_msg_2{
+            font-size: 12px;
+        }
+  }

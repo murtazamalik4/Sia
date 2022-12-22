@@ -1,0 +1,42 @@
+.sports_club{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sports_club button{
+    width: initial;
+    background-color: #ffffff;
+    border: none;
+    color:#F31237;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    /* or 120% */
+
+    text-decoration-line: underline;
+}
+
+.SportsEvents{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #000000;
+}
+
+.sports_availability{
+    background: #EDFFF9;
+    padding: 0px;
+    margin-bottom: initial;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    padding: 5px;
+    text-align: justify;
+
+    color: #00AB6F;
+
+}

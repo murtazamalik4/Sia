@@ -1,0 +1,166 @@
+.Contact_us_Row{
+    margin-top: 66px;
+    display: flex;
+    margin-left: 120px;
+}
+.Col_1{
+   background: #1E73BE;
+   margin-left: 20px;
+   padding:56px 30px;
+   height: 550px;
+   width: 40vw;
+   color: white;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   
+}
+.Col_2{
+   
+    width: 60%;
+    
+ }
+.Col_1 div:nth-child(1){
+    width: 59.88px;
+    height: 59.88px;
+
+}
+
+.Col_1 div:nth-child(2) {
+    margin-top: 37px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.Col_1 div:nth-child(3) {
+   
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.Col_1 div:nth-child(4) {
+    margin-top:88px;
+    font-weight: 700;
+font-size: 20px;
+}
+
+.send_us{
+    margin-top: 72px;
+    margin-bottom: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 39px;
+    padding-left: 102px;
+    padding-bottom: 39px;
+    padding-right: 80px;
+    width: 83vw;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+    
+}
+.send_us{
+    font-weight: 700;
+    font-size: 28px;
+}
+.input_to_send{
+    display: flex;
+    flex-direction: row;
+    margin-top: 49px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.send_us form{
+    font-weight: 600;
+    font-size: 18px;
+   
+}
+.youmsg{
+    width: 100%;
+}
+
+.send_us input{
+        outline: 0;
+        border-width: 0 0 2px;
+        border-radius: 0;
+        border-color: #D0D0D0;
+        padding-bottom: 0px;
+        margin-bottom: 48px;
+}
+
+
+.input_to_send div:nth-child(2){
+    margin-left: 70px;
+}
+
+.check{
+   
+    width: initial;
+    height: initial;
+
+}
+
+.checkbox div{
+ margin-top: -8px; 
+ margin-left: 10px;  
+ font-weight: 400;
+font-size: 16px;
+}
+
+.checkbox{
+ display: flex;
+    
+}
+
+
+
+@media only screen and (max-width: 1275px) {
+    .Contact_us_Row{
+        flex-direction: column;
+    
+        align-items: center;
+        margin-left: 0px;
+        margin:auto;
+        
+        
+    }
+
+    .Col_1{
+        margin-bottom: 20px;
+        width: 80vw;
+        
+    }
+
+    .input_to_send{
+     flex-direction: column;
+    }
+ 
+
+    .input_to_send div:nth-child(2){
+        margin-left: initial;
+    }
+    
+    .send_us{
+      margin: initial;
+      margin: auto;
+      width: 85vw;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-bottom: 90px;
+        
+    }
+    .input_to_send input{
+        width: 90%;
+        margin-bottom: 50px;
+        padding-top: initial
+    }
+    
+    .youmsg{
+        width: 80%;
+        margin-bottom: initial;
+    }
+    
+    
+}

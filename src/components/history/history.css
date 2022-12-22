@@ -1,0 +1,122 @@
+.birth-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px 50px;
+    padding-bottom: 60px;
+}
+
+.birth-image-container {
+    padding: 50px 75px;
+}
+
+.birth-img-holder {
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+}
+
+.birth-text-holder {
+    padding: 50px 75px;
+}
+
+.marker {
+    background-image: url("../../../public/assets/icons/marker.svg");
+    width: 95px;
+    height: 110px;
+    background-size: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+}
+
+.marker-date {
+    position: absolute;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    
+}
+
+.history-title-holder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    color: #12101C;
+    margin-top: 25px; 
+    margin-bottom: 15px;
+}
+
+.red-highlight {
+    width: 63px;
+    height: 8px;
+    left: 0px;
+    top: 116px;
+    background: #F31237;
+    margin-bottom: 25px;
+}
+
+.birth-text {
+    width: 90%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #54595F;
+}
+
+
+.events_component_1 {
+    background: url("../../../public/images/eventbg.jpg") no-repeat center center fixed;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 66px;
+    padding-bottom: 66px;
+    padding-left: 120px;
+  
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .events_1 h1 {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 76px;
+    color: #ffffff;
+  }
+
+  .events_1 h1:hover,
+.events_2:hover {
+  text-decoration: underline;
+  text-decoration-color: #1e73be;
+  text-decoration-thickness: 5px;
+}
+
+.events_1 h1 {
+    font-size: 30px;
+  }
+
+
+
+@media only screen and (max-width: 960px) {
+
+    .birth-text-holder {
+        padding: 25px 5px;
+    }
+
+    .birth-image-container {
+        padding: 25px 5px;
+
+    }
+
+}
