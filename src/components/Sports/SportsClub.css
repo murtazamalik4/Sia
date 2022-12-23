@@ -1,6 +1,11 @@
 .sports_club{
     display: flex;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    margin-left: 133px;
+    margin-bottom: 50px;
+    width: 470px;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .sports_club button{
@@ -13,8 +18,8 @@
     line-height: 29px;
     cursor: pointer;
     /* or 120% */
-
-    text-decoration-line: underline;
+    outline: none;
+    /* text-decoration-line: underline; */
 }
 
 .SportsEvents{

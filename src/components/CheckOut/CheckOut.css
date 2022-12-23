@@ -21,10 +21,21 @@
 }
 
 .membership_head{
-    font-weight: 700;
-    font-size: 18px;
-    text-align: left;
-    margin-bottom: 16px;
+    width: 602px;
+    height: 61px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 77px;
+    /* or 192% */
+    
+    text-transform: capitalize;
+    font-feature-settings: 'liga' off;
+    
+    color: #161616;
+    margin-bottom: 18px;
 }
 
 .membership_plan{

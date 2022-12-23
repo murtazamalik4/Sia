@@ -1,0 +1,120 @@
+.sportclubform .main{
+    width: 100%;
+    height: 1000px;
+}
+
+.sportclubform .main .form{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.sportclubform .main .form .field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 924px;
+}
+
+.sportclubform .main .form .memberfield{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 510px;
+}
+
+.sportclubform .main .form .memberfield div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+
+.sportclubform .main .form .memberfield div:nth-child(2) div{
+    display: flex;
+    flex-direction: row;
+    width: 184px;
+}
+
+.sportclubform .main .form .memberfield div:nth-child(2) div input{
+    margin-right: 20px;
+}
+
+.sportclubform .main .form .field,.memberfield,.addressfield div{
+    /* width: 109px; */
+    height: 30px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    
+    color: #161616;    
+}
+
+.sportclubform .main .form input[type=text],select{
+    width: 595px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #E3E8EF;
+    border-radius: 4px;
+    transform: rotate(0.35deg);    
+}
+
+.sportclubform .main .form .addressfield{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 924px;
+}
+
+.sportclubform .main .form .addressfield .addressboxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.sportclubform .main .form .addressfield .addressboxes div:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+}
+
+.sportclubform .main .form .addressfield .addressboxes div:nth-child(3) input{
+    width: 48%;
+}
+
+.sportclubform .main .form .submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+    width: 468px;
+    height: 55px;
+    
+    /* primary colour */
+    
+    background: #F31237;
+    border-radius: 2px;    
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+
+    text-align: center;
+
+    /* Screen Color */
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+}

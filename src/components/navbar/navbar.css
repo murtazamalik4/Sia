@@ -1,3 +1,11 @@
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 .navbar_main {
     display: flex;
     justify-content: space-around;
@@ -17,6 +25,25 @@
     justify-content: space-around;
     text-decoration: none;
     align-items: center;
+}
+
+.middle_navbar_component .dropdropicon{
+    position: relative;
+    top: -3px;
+    margin-left: 2px;
+}
+
+.middle_navbar_component .dropdown-item{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #12101C;    
+}
+
+.middle_navbar_component .dropdown-item:hover{
+    color: #1E73BE;
 }
 
 .link {

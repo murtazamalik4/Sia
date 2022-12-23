@@ -16,7 +16,7 @@ function Footer() {
         <>
 
             <div className="footer">
-                <div className="footer-inner">
+                <div className="footer-inner ">
                     <div className="footer-logo-col">
                         <div className="logo-container">
                             <div className="sia-logo"></div>

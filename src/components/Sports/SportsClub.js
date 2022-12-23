@@ -1,7 +1,7 @@
 import React from 'react'
 import './SportsClub.css';
 import { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 
 function SportsClub() {
     const [SportsClub, setSportsClub] = useState(true);
@@ -28,8 +28,8 @@ function SportsClub() {
 
 
             <div className='Card_Events'>
-                <div class="sports_club">
-                    <button onClick={()=>setSportsClub(true)}>All Sports Club</button>
+                <div class="sports_club"> 
+                    <button div className = "sports_club_active" onClick={()=>setSportsClub(true)}>All Sports Club</button>
                     <button onClick={()=>setSportsClub(false)}>My Sports Club</button>
                 </div>
                 {SportsClub ==1?
@@ -65,7 +65,8 @@ function SportsClub() {
                                 <div>4 Hrs/Booking</div>
                             </div>
 
-                            <button className='facilityEvent_book'>Book Now</button>
+                            <Link to = '/SportsClubDetails'><button className='facilityEvent_book'>Book Now</button></Link>
+
                         </div>
 
 
@@ -102,7 +103,8 @@ function SportsClub() {
                                 <div>4 Hrs/Booking</div>
                             </div>
 
-                            <button className='facilityEvent_book'>Book Now</button>
+                            <Link to = '/SportsClubDetails'><button className='facilityEvent_book'>Book Now</button></Link>
+
                         </div>
 
                     </div>
@@ -140,7 +142,8 @@ function SportsClub() {
                                 <div>4 Hrs/Booking</div>
                             </div>
 
-                            <button className='facilityEvent_book'>Book Now</button>
+                            <Link to = '/SportsClubDetails'><button className='facilityEvent_book'>Book Now</button></Link>
+
                         </div>
 
 
@@ -176,7 +179,8 @@ function SportsClub() {
                                 <div>4 Hrs/Booking</div>
                             </div>
 
-                            <button className='facilityEvent_book'>Book Now</button>
+                            <Link to = '/SportsClubDetails'><button className='facilityEvent_book'>Book Now</button></Link>
+
                         </div>
 
                     </div>
