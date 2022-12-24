@@ -88,6 +88,43 @@
     width: 48%;
 }
 
+.sportclubform .main .form .consent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sportclubform .main .form .consent1{
+    margin-top: 10px;
+}
+
+.sportclubform .main .form .consent [type="checkbox"]:checked,[type="checkbox"]:not(:checked){
+    width: 16px;
+    height: 16px;
+    background: #1E73BE;
+    border-radius: 4px;
+    position: relative;
+    top: -7px;
+    margin-right: 10px;
+}
+
+.sportclubform .main .form .consent p{
+    width: 100%;
+    height: 26px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 165%;
+    /* or 26px */
+    
+    letter-spacing: 0.005em;
+    
+    color: #161616;
+}
+
+
 .sportclubform .main .form .submit{
     display: flex;
     flex-direction: row;

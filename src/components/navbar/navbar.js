@@ -79,7 +79,7 @@ function Navbar() {
                     Events Facility
                   </Link>
                   <Link
-                    to="/SportsClub"
+                    to='/SportsFacility'
                     className="dropdown-item"
                   >
                     Sports Facility

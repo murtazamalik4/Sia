@@ -1,4 +1,5 @@
 import React from "react";
+import './heroSection.css'
 import useScript from '../../hooks/useScript';
 
 function HeroSection() {
@@ -13,10 +14,10 @@ function HeroSection() {
         <link property="stylesheet" rel='stylesheet' id='rs-plugin-settings-css' href='/customcss/rs-plugin.css' type='text/css' media='all' />
         <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style={{ visibility: 'hidden', background: 'transparent', padding: 0 }}>
             <rs-module id="rev_slider_1_1" style={{}} data-version="6.5.25">
-                <rs-slides>
+                <rs-slides >
                     <rs-slide style={{ position: 'absolute' }} data-key="rs-1" data-title="Slide" data-thumb="//images/slider1-1.jpg" data-anim="ms:1000;r:0;" data-in="o:0;" data-out="a:false;">
-                        <img src="/images/slider1-1.jpg" alt="" title="about-slider-1-copyright" width={1920} height={870} className="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="/images/slider1-1.jpg" data-panzoom="d:10000;ss:100;se:106%;" data-no-retina />
-                        <rs-layer id="slider-1-slide-1-layer-0" className="slider-main-title" data-type="text" data-color="#ffc94a" data-xy="x:c;y:m;yo:6px,6px,3px,-19px;" data-text="w:normal;s:85,85,46,32;l:105,105,57,35;fw:900;a:center;" data-frame_0="rX:70deg;oZ:-50;" data-frame_0_chars="d:5;y:cyc(-100||100);o:0;" data-frame_1="oZ:-50;sp:700;" data-frame_1_chars="e:power2.out;dir:middletoedge;d:5;" data-frame_999="o:0;st:w;" style={{ zIndex: 5, fontFamily: 'FivoSans,sans-serif' }}>
+                        <img src="/images/slider1-1.jpg"  alt="" title="about-slider-1-copyright" width={1920} height={870} className="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="/images/slider1-1.jpg" data-panzoom="d:10000;ss:100;se:106%;" data-no-retina />
+                        <rs-layer id="slider-1-slide-1-layer-0" className="slider-main-title" data-type="text" data-color="#ffc94a" data-xy="x:c;y:m;yo:6px,6px,3px,-19px;" data-text="w:normal;s:85,85,46,32;l:105,105,57,35;fw:900;a:center;" data-frame_0="rX:70deg;oZ:-50;" data-frame_0_chars="d:5;y:cyc(-100||100);o:0;" data-frame_1="oZ:-50;sp:700;" data-frame_1_chars="e:power2.out;dir:middletoedge;d:5;" data-frame_999="o:0;st:w;" style={{zIndex: 5, fontFamily: 'FivoSans,sans-serif',textShadow: "2px 1px  5px black" }}>
                             <span>Welcome to </span>
                             <br />
                             <span>Singapore Indian Association</span>
@@ -26,7 +27,7 @@ function HeroSection() {
                     </rs-slide>
                     <rs-slide style={{ position: 'absolute' }} data-key="rs-8" data-title="Slide" data-thumb="/images/slider2-1.jpg" data-anim="ms:1000;r:0;" data-in="o:0;" data-out="a:false;">
                         <img src="/images/slider2-1.jpg" alt="" title="about-slider-2-copyright" width={1920} height={870} className="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="/images/slider2-1.jpg" data-panzoom="d:10000;ss:100;se:106%;" data-no-retina />
-                        <rs-layer id="slider-1-slide-8-layer-0" className="slider-main-title" data-type="text" data-color="#ffc94a" data-xy="x:c;y:m;yo:6px,6px,3px,-19px;" data-text="w:normal;s:85,85,46,32;l:105,105,57,35;fw:900;a:center;" data-frame_0="rX:70deg;oZ:-50;" data-frame_0_chars="d:5;y:cyc(-100||100);o:0;" data-frame_1="oZ:-50;sp:700;" data-frame_1_chars="e:power2.out;dir:middletoedge;d:5;" data-frame_999="o:0;st:w;" style={{ zIndex: 5, fontFamily: 'FivoSans,sans-serif' }}>
+                        <rs-layer id="slider-1-slide-8-layer-0" className="slider-main-title" data-type="text" data-color="#ffc94a" data-xy="x:c;y:m;yo:6px,6px,3px,-19px;" data-text="w:normal;s:85,85,46,32;l:105,105,57,35;fw:900;a:center;" data-frame_0="rX:70deg;oZ:-50;" data-frame_0_chars="d:5;y:cyc(-100||100);o:0;" data-frame_1="oZ:-50;sp:700;" data-frame_1_chars="e:power2.out;dir:middletoedge;d:5;" data-frame_999="o:0;st:w;" style={{ zIndex: 5, fontFamily: 'FivoSans,sans-serif',textShadow: "2px 1px  5px black" }}>
                             A place for our community
                             <br />
                             <span>  engagement and sports development</span>
@@ -37,7 +38,7 @@ function HeroSection() {
                     </rs-slide>
                     <rs-slide style={{ position: 'absolute' }} data-key="rs-9" data-title="Slide" data-thumb="/images/slider3-1.jpg" data-anim="ms:1000;r:0;" data-in="o:0;" data-out="a:false;">
                         <img src="/images/slider3-1.jpg" alt="" title="about-slider-3-copyright" width={1920} height={870} className="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="/images/slider3-1.jpg" data-panzoom="d:10000;ss:100;se:106%;" data-no-retina />
-                        <rs-layer id="slider-1-slide-9-layer-0" className="slider-main-title" data-type="text" data-color="#ffc94a" data-xy="x:c;y:m;yo:6px,6px,3px,-19px;" data-text="w:normal;s:85,85,46,32;l:105,105,57,35;fw:900;a:center;" data-frame_0="rX:70deg;oZ:-50;" data-frame_0_chars="d:5;y:cyc(-100||100);o:0;" data-frame_1="oZ:-50;sp:700;" data-frame_1_chars="e:power2.out;dir:middletoedge;d:5;" data-frame_999="o:0;st:w;" style={{ zIndex: 5, fontFamily: 'FivoSans,sans-serif' }}>
+                        <rs-layer id="slider-1-slide-9-layer-0" className="slider-main-title" data-type="text" data-color="#ffc94a" data-xy="x:c;y:m;yo:6px,6px,3px,-19px;" data-text="w:normal;s:85,85,46,32;l:105,105,57,35;fw:900;a:center;" data-frame_0="rX:70deg;oZ:-50;" data-frame_0_chars="d:5;y:cyc(-100||100);o:0;" data-frame_1="oZ:-50;sp:700;" data-frame_1_chars="e:power2.out;dir:middletoedge;d:5;" data-frame_999="o:0;st:w;" style={{ zIndex: 5, fontFamily: 'FivoSans,sans-serif',textShadow: "2px 1px  5px black" }}>
                             Time to celebrating our 
                             <br />
                             <span> history and build a legacy for the future

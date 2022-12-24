@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./SportClubForm.css";
 
 const SportClubForm = () => {
@@ -18,14 +19,14 @@ const SportClubForm = () => {
           <div className="memberfield">
             <div className="Membership">Membership*</div>
             <div>
-
               <div>
-                <input type="radio" name="member" id="newmember" /> <label htmlFor="newmember">New Member</label>
+                <input type="radio" name="member" id="newmember" />{" "}
+                <label htmlFor="newmember">New Member</label>
               </div>
               <div>
-              <input type="radio" name="member" id="renewal" />  <label htmlFor="renewal">Renewal</label>
+                <input type="radio" name="member" id="renewal" />{" "}
+                <label htmlFor="renewal">Renewal</label>
               </div>
-
             </div>
           </div>
           <div className="field">
@@ -39,44 +40,54 @@ const SportClubForm = () => {
           <div className="field">
             <div className="fullname">Full Name*</div>
             <div>
-              <input type="text" name="" id="" placeholder="Full Name"/>
+              <input type="text" name="" id="" placeholder="Full Name" />
             </div>
           </div>
           <div className="field">
             <div className="email">Email Id*</div>
             <div>
-              <input type="text" name="" id="" placeholder="Email Id"/>
+              <input type="text" name="" id="" placeholder="Email Id" />
             </div>
           </div>
           <div className="field">
             <div className="phoneno">Phone No*</div>
             <div>
-              <input type="text" name="" id="" placeholder="Phone Number"/>
+              <input type="text" name="" id="" placeholder="Phone Number" />
             </div>
           </div>
           <div className="addressfield">
-            <div className="address">
-              Address*
-            </div>
+            <div className="address">Address*</div>
 
             <div className="addressboxes">
               <div className="addressbox">
-                <input type="text" placeholder="Address Line 1"/>
+                <input type="text" placeholder="Address Line 1" />
               </div>
               <div className="addressbox">
-                <input type="text" placeholder="Address Line 2"/>
+                <input type="text" placeholder="Address Line 2" />
               </div>
               <div className="addressbox">
-                <input type="text" placeholder="ZIP Code"/>
-                <input type="text" placeholder="Country"/>
+                <input type="text" placeholder="ZIP Code" />
+                <input type="text" placeholder="Country" />
               </div>
             </div>
           </div>
 
-          <div></div>
-          <div></div>
-          <div className="submit">Submit</div>
-
+          <div className="consent1 consent">
+            {" "}
+            <input type="checkbox" name="" id="" className="checkboox" />{" "}
+            <p>I understand that information i submitted is true.</p>{" "}
+          </div>
+          <div className="consent2 consent">
+            {" "}
+            <input type="checkbox" name="" id=""  />{" "}
+            <p>
+              I agree to abide by SIA rules & regulations as present or as maybe
+              changed from time to time.
+            </p>{" "}
+          </div>
+          <Link to="/review_message">
+            <div className="submit">Submit</div>
+          </Link>
         </form>
       </div>
     </div>

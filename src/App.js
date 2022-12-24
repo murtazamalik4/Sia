@@ -27,10 +27,11 @@ import {
   Route
 } from "react-router-dom";
 import SportsClub from './components/Sports/SportsClub';
+import SportsFacility from './components/Sports/SportsFacility';
 import SportsClubDetails from './components/Sports/SportsClubDetails';
+import SportsFacilityDetails from './components/Sports/SportsFacilityDetails';
 import EventsFacilityBooking from './components/EventsFacility/EventsFacilityBookings/EventsFacilityBooking';
 import EventsFacilityBookingConfirmed from './components/EventsFacility/EventsFacilityBookingConfirmed/EventsFacilityBookingConfirmed';
-
 
 
 function App() {
@@ -52,10 +53,12 @@ function App() {
         <Route path="/EventsFacilityCheckout" element={<EventsFacilityCheckout/>}/>
         <Route path="/EventsFacilityBookingConfirmed" element={<EventsFacilityBookingConfirmed/>}/>
         <Route path='/SportsClub' element={<SportsClub/>}/>
+        <Route path='/SportsFacility' element={<SportsFacility/>}/>
         <Route path='/SportsClubForm' element={<SportClubForm/>}/>
         <Route path='/EventsFacilityBooking' element={<EventsFacilityBooking/>}/>
         <Route path='/AllEventsFacilityBooking' element={<AllEventsFacilityBooking/>}/>
         <Route path='/SportsClubDetails' element={<SportsClubDetails/>}/>
+        <Route path='/SportsFacilityDetails' element={<SportsFacilityDetails/>}/>
         {/* <Route path="/footer" element={<Footer />} /> */}
         <Route path="/history" element={<History />} />
         <Route path="/upcoming-events" element={<UpcomingEvents />} />
