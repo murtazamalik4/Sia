@@ -32,7 +32,7 @@ import SportsClubDetails from './components/Sports/SportsClubDetails';
 import SportsFacilityDetails from './components/Sports/SportsFacilityDetails';
 import EventsFacilityBooking from './components/EventsFacility/EventsFacilityBookings/EventsFacilityBooking';
 import EventsFacilityBookingConfirmed from './components/EventsFacility/EventsFacilityBookingConfirmed/EventsFacilityBookingConfirmed';
-
+import MemberProfilePage from './components/Membership/MemberProfilePage';
 
 function App() {
   return (
@@ -65,6 +65,7 @@ function App() {
         <Route path="/upcoming-events-2" element={<AllEvents />} />
         <Route path="/gallery" element={<Gallary />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/MemberProfilePage" element={<MemberProfilePage/>} />
       </Routes>
       <Footer />
     </Router>

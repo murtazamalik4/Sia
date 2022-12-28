@@ -46,6 +46,27 @@ a{
     color: #1E73BE;
 }
 
+.userloggedIn div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.userloggedIn div span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    /* identical to box height, or 22px */
+
+
+    /* secondary */
+
+    color: #1E73BE;
+}
+
 .link {
     text-decoration: none;
     color: #12101C;

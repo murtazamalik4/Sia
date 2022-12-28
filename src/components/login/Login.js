@@ -25,7 +25,9 @@ function Login() {
             <div className='pass' >Password</div>
             <input type="password" placeholder='Enter your password' name="" id="" />
             <div className='log_in_btn'>
-              <button className='log_in_btn'>Log in now</button>
+              <Link to = "/MemberProfilePage">
+                <button className='log_in_btn'>Log in now</button>
+              </Link>
             </div>
             <div className='forgot'>
               <a href="#forget">forget password</a>

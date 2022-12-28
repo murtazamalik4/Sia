@@ -72,7 +72,7 @@ function EventsFacilityBooking() {
 
 
              <div className='SportsEvents_info'>
-             <div className='SportsEvents_info_head events_facility_desc'>Booking Hours</div>
+             <div className='SportsEvents_info_head events_facility_desc'>Booking Information</div>
             <div className='FacilityEvent_info  '>
                 
                 <div className='FacilityEvent_timings'>

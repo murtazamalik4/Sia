@@ -78,10 +78,7 @@ function Navbar() {
                   >
                     Events Facility
                   </Link>
-                  <Link
-                    to='/SportsFacility'
-                    className="dropdown-item"
-                  >
+                  <Link to="/SportsFacility" className="dropdown-item">
                     Sports Facility
                   </Link>
                   <Link to="/SportsClub" className="dropdown-item">
@@ -102,6 +99,28 @@ function Navbar() {
             <button style={{ cursor: "pointer" }}>Member Login</button>
           </div>
         </Link>
+
+        {/* <li class="nav-item dropdown userloggedIn">
+          <a
+            class="nav-link"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <div>
+              <img src="assets/icons/usericon.png" alt="" />
+              <span>John Smith</span>
+            </div>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div className="dropdown-item" style={{ width: "20px" }}>
+              <a href="/">Log out</a>
+            </div>
+          </div>
+        </li> */}
       </div>
       <div className="navbar_main mobile">
         <div>
