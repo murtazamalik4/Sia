@@ -471,6 +471,12 @@
     border-radius: 12px;
 }
 
+.memberprofilepage .profilepagemain .bottom .payments .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .memberprofilepage .profilepagemain .bottom .payments .heading{
     margin-top: 26px;
     margin-left: 12px;
@@ -488,6 +494,13 @@
     /* Heading Text */
     
     color: #12101C;    
+}
+
+.memberprofilepage .profilepagemain .bottom .payments .top .calender-range{
+    margin-right: 12px;
+    width: 145px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .memberprofilepage .profilepagemain .bottom .payments .payinfobox{
