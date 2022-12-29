@@ -147,13 +147,13 @@ function Navbar() {
           </Link>
         </p>
         <p>
-          <Link className="link" to="/gallery"></Link>Gallery
+          <Link className="link" to="/gallery">Gallery</Link>
         </p>
         <p>
-          <Link className="link" to="/upcoming-events"></Link>Events
+          <Link className="link" to="/upcoming-events">Events</Link>
         </p>
         <p>
-          <Link className="link" to="/contact-us"></Link>Contact Us
+          <Link className="link" to="/contact-us">Contact Us</Link>
         </p>
       </Drawer>
     </div>

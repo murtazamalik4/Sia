@@ -74,6 +74,7 @@ button {
     padding: 16px;
     font-weight: 700;
     line-height: 130%;
+    border: none;
 }
 
 @media only screen and (max-width: 960px) {

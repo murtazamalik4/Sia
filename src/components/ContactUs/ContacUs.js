@@ -12,7 +12,7 @@ function ContacUs() {
         </div>
         <div className="events_2">HOME - Contact Us</div>
       </div>
-      <div style={{FontSize: '24px',fontWeight:'600',color: '#161616', display:"flex",justifyContent:"center",lineHeight:'32px',alignItems:"center",margin:"40px 0px 0px 0px"}}>
+      <div style={{fontSize: '24px',fontWeight:'600',color: '#161616', display:"flex",justifyContent:"center",lineHeight:'32px',alignItems:"center",margin:"40px 0px 0px 0px"}}>
       Want to get in touch? We’d love to hear from you. Here how you can reach us...
       </div>
       <div className="Contact_us_Row">
