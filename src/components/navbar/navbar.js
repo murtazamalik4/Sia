@@ -147,7 +147,7 @@ function Navbar() {
           </Link>
         </p>
         <p>
-          <Link className="link" to="/gallery">Gallery</Link>
+          <Link className="link" to="/gallery" on>Gallery</Link>
         </p>
         <p>
           <Link className="link" to="/upcoming-events">Events</Link>

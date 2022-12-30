@@ -104,3 +104,19 @@ button.ant-drawer-close {
 .ant-image {
   width: 100%;
 }
+
+html{
+  font-size: 62.5%;
+}
+
+@media(max-width : 998px){
+  html{
+      font-size: 55%;
+  }
+}
+
+@media(max-width : 768px){
+  html{
+      font-size: 45%;
+  }
+}
