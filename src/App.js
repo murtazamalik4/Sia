@@ -33,6 +33,8 @@ import SportsFacilityDetails from './components/Sports/SportsFacilityDetails';
 import EventsFacilityBooking from './components/EventsFacility/EventsFacilityBookings/EventsFacilityBooking';
 import EventsFacilityBookingConfirmed from './components/EventsFacility/EventsFacilityBookingConfirmed/EventsFacilityBookingConfirmed';
 import MemberProfilePage from './components/Membership/MemberProfilePage';
+import MembershipHistory from './components/Membership/MembershipHistory';
+import Payment from './components/Membership/Payment';
 
 function App() {
   return (
@@ -65,7 +67,11 @@ function App() {
         <Route path="/upcoming-events-2" element={<AllEvents />} />
         <Route path="/gallery" element={<Gallary />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/MemberProfilePage" element={<MemberProfilePage/>} />
+        {/* <Route path="/MemberProfilePage" element={<MemberProfilePage/>} /> */}
+        <Route path="/MemberProfilePage" element={<MemberProfilePage/>} >
+          <Route path = "memebershiphistory" element = {<MembershipHistory/>} />
+          <Route path = "payment" element = {<Payment/>} />
+        </Route>
       </Routes>
       <Footer />
     </Router>

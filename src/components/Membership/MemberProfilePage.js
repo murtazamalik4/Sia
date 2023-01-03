@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, Outlet } from "react-router-dom";
 import "./MemberProfilePage.css";
 
 const MemberProfilePage = () => {
@@ -29,9 +30,13 @@ const MemberProfilePage = () => {
             <span>Location:</span> <span>Singapore</span>
           </div>
         </div>
-
+        
+        <div className="mobnavigation">
+            <Link to = "memebershiphistory">MembershipHistory</Link> 
+            <Link to = "payment">Payments</Link> 
+          </div>
         <div className="bottom">
-          <div className="history">
+          <div className="history hide">
             <div className="heading">Membership History</div>
 
             <div className="package">
@@ -95,7 +100,7 @@ const MemberProfilePage = () => {
               </div>
             </div>
           </div>
-          <div className="payments">
+          <div className="payments hide">
             <div className="top">
               <div className="heading">Payments</div>
 
@@ -174,6 +179,7 @@ const MemberProfilePage = () => {
               </div>
             </div>
           </div>
+          <Outlet/>
         </div>
       </div>
     </div>

@@ -1,22 +1,35 @@
 .memberprofilepage{
     width: 100%;
-    height: 1000px;
+    /* height: 1000px; */
+    height: 100rem;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.mobview{
+    display: none;
 }
 
 .memberprofilepage .profilepagemain{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 800px;
+    /* height: 800px; */
+    height: 80rem;
     /* width: 90%; */
-    width: 1237px;
+    /* width: 1237px; */
+    width: 123.7rem;
     background: #FFFFFF;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
-    border-radius: 2px;
+    /* box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15); */
+    box-shadow: 0px .8rem 1.6rem rgba(0, 0, 0, 0.15);
+    /* border-radius: 2px; */
+    border-radius: .2rem;
     /* background-color: red; */
+}
+
+.memberprofilepage .profilepagemain .mobnavigation{
+    display: none;
 }
 
 .memberprofilepage .profilepagemain .userinfo{
@@ -35,8 +48,10 @@
 }
 
 .memberprofilepage .profilepagemain .userinfo div .username{
-    margin-left: 25px;
-    height: 55px;
+    /* margin-left: 25px; */
+    margin-left: 2.5rem;
+    /* height: 55px; */
+    height: 5.5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -44,13 +59,15 @@
 }
 
 .memberprofilepage .profilepagemain .userinfo div .username div:nth-child(1){
-    width: 110px;
-    height: 28px;
+    /* width: 110px; */
+    width: 11rem;
+    /* height: 28px; */
+    height: 2.8rem;
     
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    /* font-size: 20px; */
     font-size: 2rem;
     line-height: 140%;
     /* identical to box height, or 28px */
@@ -68,7 +85,8 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 1.4rem;
     line-height: 140%;
     /* identical to box height, or 20px */
     
@@ -79,13 +97,16 @@
 }
 
 .memberprofilepage .profilepagemain .userinfo .fname span:nth-child(1),.mobile span:nth-child(1), .email span:nth-child(1),.location span:nth-child(1){
-    width: 73px;
-    height: 20px;
+    /* width: 73px; */
+    width: 7.3rem;
+    /* height: 20px; */
+    height: 2rem;
 
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 1.4rem;
     line-height: 140%;
     /* identical to box height, or 20px */
     
@@ -96,12 +117,15 @@
 }
 
 .memberprofilepage .profilepagemain .userinfo .fname span:nth-child(2),.mobile span:nth-child(2),.email span:nth-child(2),.location span:nth-child(2){
-    width: 71px;
-    height: 20px;
+    /* width: 71px; */
+    width: 7.1rem;
+    /* height: 20px; */
+    height: 2rem;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 1.4rem;
     line-height: 140%;
     /* identical to box height, or 20px */
     
@@ -112,33 +136,37 @@
 }
 
 .memberprofilepage .profilepagemain .userinfo .mobile span:nth-child(1){
-    width: 50px;
-    height: 20px;
+    /* width: 50px; */
+    width: 5rem;
+    /* height: 20px; */
+    height: 2rem;
 }
 
 .memberprofilepage .profilepagemain .userinfo .mobile span:nth-child(2){
-    width: 115px;
-    height: 20px;
+    /* width: 115px; */
+    width: 11.5rem;
+    /* height: 20px; */
+    height: 2rem;
 }
 
 .memberprofilepage .profilepagemain .userinfo .email span:nth-child(1){
-    width: 41px;
-    height: 20px;
+    width: 4.1rem;
+    height: 2rem;
 }
 
 .memberprofilepage .profilepagemain .userinfo .email span:nth-child(2){
-    width: 141px;
-    height: 20px;
+    width: 14.1rem;
+    height: 2rem;
 }
 
 .memberprofilepage .profilepagemain .userinfo .location span:nth-child(1){
-    width: 62px;
-    height: 20px;
+    width: 6.2rem;
+    height: 2rem;
 }
 
 .memberprofilepage .profilepagemain .userinfo .location span:nth-child(2){
-    width: 63px;
-    height: 20px;
+    width: 6.3rem;
+    height: 2rem;
 }
 
 .memberprofilepage .profilepagemain .bottom{
@@ -147,23 +175,23 @@
 }
 
 .memberprofilepage .profilepagemain .bottom .history{
-    height: 490px;
-    width: 690px;
+    height: 49rem;
+    width: 69rem;
     background: #FFFFFF;
-    border: 1px solid #EDEBEB;
-    border-radius: 12px;
+    border: .1rem solid #EDEBEB;
+    border-radius: 1.2rem;
 }
 
 .memberprofilepage .profilepagemain .bottom .history .heading{
-    margin-top: 26px;
-    margin-left: 12px;
-    margin-bottom: 26px;
-    width: 164px;
-    height: 22px;
+    margin-top: 2.6rem;
+    margin-left: 1.2rem;
+    margin-bottom: 2.6rem;
+    width: 16.4rem;
+    height: 2.2rem;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 140%;
     color: #12101C;    
 }
@@ -173,15 +201,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 344px;
+    height: 34.4rem;
     width: 100%;
 }
 
 .memberprofilepage .profilepagemain .bottom .history .package .package1,.package2{
-    height: 162px;
-    width: 655px;
+    height: 16.2rem;
+    width: 65.5rem;
     background: #F8F9FA;
-    border-radius: 8px;
+    border-radius: .8rem;
     display: flex;
     justify-content: space-around;
 }
@@ -204,7 +232,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 140%;
     color: #12101C;   
 }
@@ -217,7 +245,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 1.2rem;
     line-height: 140%;
     /* identical to box height, or 17px */
     
@@ -233,7 +261,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 1.2rem;
     line-height: 140%;
     /* identical to box height, or 17px */
     
@@ -254,19 +282,19 @@
 
 .memberprofilepage .profilepagemain .bottom .history .package .package1 .right .appdue{
     display: flex;
-    width: 130px;
+    width: 13rem;
     justify-content: space-between;
 }
 
 .memberprofilepage .profilepagemain .bottom .history .package .package1 .right .appdue .approve{
-    width: 57px;
-    height: 15px;
+    width: 5.7rem;
+    height: 1.5rem;
     
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
     /* identical to box height */
     
     text-align: justify;
@@ -279,19 +307,19 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 8px;
-    gap: 10px;
-    width: 74px;
+    padding: .8rem;
+    gap: 1rem;
+    width: 7.4rem;
     background: #EDFFF9;
-    border-radius: 6px;    
+    border-radius: .6rem;    
 }
 
 .memberprofilepage .profilepagemain .bottom .history .package .package1 .right .appdue .due{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
     /* identical to box height */
 
     text-align: justify;
@@ -303,10 +331,10 @@
     align-items: center;
     justify-content: center;
     /* padding: 8px; */
-    gap: 10px;
-    width: 40px;
+    gap: 1rem;
+    width: 4rem;
     background: #FFDFDF;
-    border-radius: 6px;
+    border-radius: .6rem;
 }
 
 .memberprofilepage .profilepagemain .bottom .history .package .package1 .right button{
@@ -314,14 +342,14 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 8px 16px;
-    gap: 10px;
+    padding: .8rem 1.6rem;
+    gap: 1rem;
 
-    height: 33px;
+    height: 3.3rem;
     /* secondary */
     
-    border: 1px solid #1E73BE;
-    border-radius: 8px;
+    border: .1rem solid #1E73BE;
+    border-radius: .8rem;
     background: #F8F9FA;
     color: #1E73BE;
     outline: none;
@@ -331,8 +359,8 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
     color: #1E73BE;
 }
 
@@ -357,7 +385,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 140%;
     color: #12101C;   
 }
@@ -370,7 +398,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 1.2rem;
     line-height: 140%;
     /* identical to box height, or 17px */
     
@@ -386,7 +414,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 1.2rem;
     line-height: 140%;
     /* identical to box height, or 17px */
     
@@ -401,7 +429,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 10px;
+    top: 1rem;
     /* justify-content: space-evenly; */
     align-items: flex-end;
     text-align: right;
@@ -409,19 +437,19 @@
 
 .memberprofilepage .profilepagemain .bottom .history .package .package2 .right .appdue{
     display: flex;
-    width: 130px;
+    width: 13rem;
     justify-content: space-between;
 }
 
 .memberprofilepage .profilepagemain .bottom .history .package .package2 .right .appdue .approve{
-    width: 57px;
-    height: 15px;
+    width: 5.7rem;
+    height: 1.5rem;
     
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
     /* identical to box height */
     
     text-align: justify;
@@ -434,19 +462,19 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 8px;
-    gap: 10px;
-    width: 74px;
+    padding: .8rem;
+    gap: 1rem;
+    width: 7.4rem;
     background: #EDFFF9;
-    border-radius: 6px; 
+    border-radius: .6rem; 
 }
 
 .memberprofilepage .profilepagemain .bottom .history .package .package2 .right .appdue .paid{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
     /* identical to box height */
 
     text-align: justify;
@@ -458,18 +486,18 @@
     align-items: center;
     justify-content: center;
     /* padding: 8px; */
-    gap: 10px;
-    width: 40px;
+    gap: 1rem;
+    width: 4rem;
     background: #EDFFF9;
-    border-radius: 6px;
+    border-radius: .6rem;
 }
 
 .memberprofilepage .profilepagemain .bottom .payments{
-    height: 490px;
-    width: 468px;
+    height: 49rem;
+    width: 46.8rem;
     background: #FFFFFF;
-    border: 1px solid #EDEBEB;
-    border-radius: 12px;
+    border: .1rem solid #EDEBEB;
+    border-radius: 1.2rem;
 }
 
 .memberprofilepage .profilepagemain .bottom .payments .top{
@@ -479,15 +507,15 @@
 }
 
 .memberprofilepage .profilepagemain .bottom .payments .heading{
-    margin-top: 26px;
-    margin-left: 12px;
-    margin-bottom: 26px;
-    width: 80px;
-    height: 22px;
+    margin-top: 2.6rem;
+    margin-left: 1.2rem;
+    margin-bottom: 2.6rem;
+    width: 8rem;
+    height: 2.2rem;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 140%;
     /* or 22px */
     
@@ -498,10 +526,14 @@
 }
 
 .memberprofilepage .profilepagemain .bottom .payments .top .calender-range{
-    margin-right: 12px;
-    width: 145px;
+    margin-right: 1.2rem;
+    width: 14.5rem;
     display: flex;
     justify-content: space-between;
+}
+
+.memberprofilepage .profilepagemain .bottom .payments .top .calender-range img{
+    
 }
 
 .memberprofilepage .profilepagemain .bottom .payments .payinfobox{
@@ -511,8 +543,8 @@
 }
 
 .memberprofilepage .profilepagemain .bottom .payments .payinfobox .payinfo{
-    width: 445px;
-    height: 350px;
+    width: 44.5rem;
+    height: 35rem;
     display: flex;
     justify-content: space-between;
 }
@@ -527,8 +559,8 @@
 }
 
 .memberprofilepage .profilepagemain .bottom .payments .payinfobox .payinfo .eventsinfo .box{
-    width: 200px;
-    height: 42px;
+    width: 20rem;
+    height: 4.2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -539,10 +571,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 34px;
-    height: 34px;
+    width: 3.4rem;
+    height: 3.4rem;
     border-radius: 50%;
-    border: 1px solid #F44334;
+    border: .1rem solid #F44334;
     /* transform: rotate(-180deg); */
 }
 
@@ -555,7 +587,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 140%;
     /* identical to box height, or 20px */
     
@@ -568,7 +600,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 1.2rem;
     line-height: 140%;
     /* identical to box height, or 17px */
     
@@ -591,7 +623,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 140%;
     /* identical to box height, or 20px */
     
@@ -600,4 +632,263 @@
     /* Linear/Red-Orange */
     
     color: #F44334;
+}
+
+.memberprofilepage{
+    overflow-x: hidden;
+}
+
+
+@media screen and (max-width : 1285px){
+    .memberprofilepage .profilepagemain .bottom .history{
+        width: 55%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package1, .package2{
+        width: 90%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .payments{
+        width: 40%;
+    }
+    
+    .memberprofilepage .profilepagemain .bottom .payments .payinfobox .payinfo{
+        width: 95%;
+    } 
+
+}
+
+@media screen and (max-width : 1285px){
+    .memberprofilepage .profilepagemain .bottom .payments .top .calender-range{
+        /* display: block; */
+        width: 145px;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .payments .top .calender-range img{
+        /* padding-left: 1rem; */
+    }
+}
+
+@media screen and (max-width : 850px){
+    .memberprofilepage .profilepagemain .bottom .history .package .package1 .left .packhead{
+        position: relative;
+        top: 44%;
+        left: 0%;
+    } 
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package1 .left div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package1 .left .membership{
+        position: relative;
+        top: 55%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package1 .left .eaddress{
+        position: relative;
+        top: 16%;
+        left: 82%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package1 .left .memid{
+        position: relative;
+        bottom: -14%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package1 .left .amount{
+        position: relative;
+        top: -25%;
+        left: 84%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package1 .left .membership span:nth-child(2), .eaddress span:nth-child(2), .memid span:nth-child(2), .amount span:nth-child(2){
+        text-align: left;
+        position: relative;
+        left: 0%;
+        bottom: 36%;
+    }
+
+    /* package2 */
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package2 .left .packhead{
+        position: relative;
+        top: 44%;
+        left: 0%;
+    } 
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package2 .left div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package2 .left .membership{
+        position: relative;
+        top: 55%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package2 .left .eaddress{
+        position: relative;
+        top: 16%;
+        left: 82%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package2 .left .memid{
+        position: relative;
+        bottom: -14%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package2 .left .amount{
+        position: relative;
+        top: -25%;
+        left: 84%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package2 .left .membership span:nth-child(2), .eaddress span:nth-child(2), .memid span:nth-child(2), .amount span:nth-child(2){
+        text-align: left;
+        position: relative;
+        left: 0%;
+        bottom: 36%;
+    }
+}
+
+@media screen and (max-width : 600px){
+
+    .mobview{
+        display: block;
+    }
+
+    .memberprofilepage{
+        height: 114rem;
+    }
+
+    .memberprofilepage .profilepagemain{
+        height: 93rem;
+    }
+
+    .memberprofilepage .profilepagemain .mobnavigation{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .memberprofilepage .profilepagemain .bottom{
+        height: 90rem;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history{
+        height: 61rem;
+        width: 80%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package{
+        height: 51.4rem;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .hide{
+        display: none;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package1{
+        flex-direction: column;
+        height: 24.5rem;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package1 .left{
+        height: 45%;
+        margin-left: 1rem;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package1 .left .packhead{
+        position: relative;
+        top: 66%;
+    }    
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package1 .left .membership{
+        position: relative;
+        top: 73%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package1 .left .memid {
+        position: relative;
+        bottom: -14%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package1 .left .amount {
+        position: relative;
+        top: -46%;
+        left: 84%;
+    }
+    
+    .memberprofilepage .profilepagemain .bottom .history .package .package1 .right{
+        flex-direction: row;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package1 .right .paynow{
+        position: relative;
+        top: -40%;
+        right: -25%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package1 .right .remdays{
+        position: relative;
+        top: 80%;
+    }
+
+    /* package2 */
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package2{
+        flex-direction: column;
+        height: 24.5rem;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package2 .left{
+        height: 45%;
+        margin-left: 1rem;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package2 .left .packhead{
+        position: relative;
+        top: 66%;
+    }    
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package2 .left .membership{
+        position: relative;
+        top: 73%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package2 .left .memid {
+        position: relative;
+        bottom: -14%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package2 .left .amount {
+        position: relative;
+        top: -46%;
+        left: 84%;
+    }
+    
+    .memberprofilepage .profilepagemain .bottom .history .package .package2 .right{
+        flex-direction: row;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package2 .right .paynow{
+        position: relative;
+        top: -40%;
+        right: -25%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package2 .right .remdays{
+        position: relative;
+        top: 80%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .payments{
+        width: 80%;
+    }
+    
 }
