@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import "./MemberProfilePage.css";
+import MobView from './MobView';
 
 const MemberProfilePage = () => {
   return (
@@ -32,8 +33,8 @@ const MemberProfilePage = () => {
         </div>
         
         <div className="mobnavigation">
-            <Link to = "memebershiphistory">MembershipHistory</Link> 
-            <Link to = "payment">Payments</Link> 
+            {/* <Link to = "memebershiphistory">MembershipHistory</Link>  */}
+            {/* <Link to = "payment">Payments</Link>  */}
           </div>
         <div className="bottom">
           <div className="history hide">
@@ -179,7 +180,7 @@ const MemberProfilePage = () => {
               </div>
             </div>
           </div>
-          <Outlet/>
+          <MobView/>
         </div>
       </div>
     </div>

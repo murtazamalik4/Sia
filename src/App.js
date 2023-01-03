@@ -20,11 +20,10 @@ import CheckOut from './components/CheckOut/CheckOut';
 import EventsFacility from './components/EventsFacility/EventsFacility';
 import SportClubForm from './components/Sports/SportClubForm';
 import AllEventsFacilityBooking from './components/EventsFacility/AllEventsFacilityBookings/AllEventsFacilityBooking';
-
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route,
 } from "react-router-dom";
 import SportsClub from './components/Sports/SportsClub';
 import SportsFacility from './components/Sports/SportsFacility';
@@ -69,7 +68,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         {/* <Route path="/MemberProfilePage" element={<MemberProfilePage/>} /> */}
         <Route path="/MemberProfilePage" element={<MemberProfilePage/>} >
-          <Route path = "memebershiphistory" element = {<MembershipHistory/>} />
+          <Route path = "memebershiphistory" exact element =  {<MembershipHistory/>} />
           <Route path = "payment" element = {<Payment/>} />
         </Route>
       </Routes>

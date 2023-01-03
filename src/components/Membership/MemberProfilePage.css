@@ -759,6 +759,10 @@
         display: block;
     }
 
+    .tabs{
+        width: 100%;
+    }
+
     .memberprofilepage{
         height: 114rem;
     }
@@ -770,6 +774,22 @@
     .memberprofilepage .profilepagemain .mobnavigation{
         display: flex;
         justify-content: space-around;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .memberprofilepage .profilepagemain .mobnavigation a{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 140%;
+        /* identical to box height, or 20px */
+        
+        
+        /* body text */
+        
+        color: #54595F;    
     }
 
     .memberprofilepage .profilepagemain .bottom{
@@ -778,7 +798,9 @@
 
     .memberprofilepage .profilepagemain .bottom .history{
         height: 61rem;
-        width: 80%;
+        /* width: 80%; */
+        width: 100%;
+        /* border: none; */
     }
 
     .memberprofilepage .profilepagemain .bottom .history .package{
@@ -802,6 +824,7 @@
     .memberprofilepage .profilepagemain .bottom .history .package .package1 .left .packhead{
         position: relative;
         top: 66%;
+        width: 120px;
     }    
 
     .memberprofilepage .profilepagemain .bottom .history .package .package1 .left .membership{
@@ -809,15 +832,21 @@
         top: 73%;
     }
 
+    .memberprofilepage .profilepagemain .bottom .history .package .package1 .left .eaddress {
+        position: relative;
+        top: 30%;
+        left: 160%;
+    }
+
     .memberprofilepage .profilepagemain .bottom .history .package .package1 .left .memid {
         position: relative;
-        bottom: -14%;
+        bottom: -28%;
     }
 
     .memberprofilepage .profilepagemain .bottom .history .package .package1 .left .amount {
         position: relative;
-        top: -46%;
-        left: 84%;
+        top: -17%;
+        left: 160%;
     }
     
     .memberprofilepage .profilepagemain .bottom .history .package .package1 .right{
@@ -830,6 +859,11 @@
         position: relative;
         top: -40%;
         right: -25%;
+    }
+
+    .memberprofilepage .profilepagemain .bottom .history .package .package1 .right .appdue{
+        position: relative;
+        /* left: 0%; */
     }
 
     .memberprofilepage .profilepagemain .bottom .history .package .package1 .right .remdays{
@@ -852,6 +886,7 @@
     .memberprofilepage .profilepagemain .bottom .history .package .package2 .left .packhead{
         position: relative;
         top: 66%;
+        width: 120px;
     }    
 
     .memberprofilepage .profilepagemain .bottom .history .package .package2 .left .membership{
@@ -859,15 +894,21 @@
         top: 73%;
     }
 
+    .memberprofilepage .profilepagemain .bottom .history .package .package2 .left .eaddress {
+        position: relative;
+        top: 30%;
+        left: 160%;
+    }
+
     .memberprofilepage .profilepagemain .bottom .history .package .package2 .left .memid {
         position: relative;
-        bottom: -14%;
+        bottom: -28%;
     }
 
     .memberprofilepage .profilepagemain .bottom .history .package .package2 .left .amount {
         position: relative;
-        top: -46%;
-        left: 84%;
+        top: -17%;
+        left: 160%;
     }
     
     .memberprofilepage .profilepagemain .bottom .history .package .package2 .right{
@@ -888,7 +929,9 @@
     }
 
     .memberprofilepage .profilepagemain .bottom .payments{
-        width: 80%;
+        /* width: 80%; */
+        width: 100%;
+        /* border: none; */
     }
     
 }
