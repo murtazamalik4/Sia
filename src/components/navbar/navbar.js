@@ -136,24 +136,78 @@ function Navbar() {
         onClose={onClose}
         visible={visible}
       >
-        <p>
+        <p onClick={onClose}>
           <Link to="/" className="link">
             Home
           </Link>
         </p>
-        <p>
+        <p onClick={onClose}>
           <Link className="link" to="/history">
             About Us
           </Link>
         </p>
-        <p>
+        <p onClick={onClose}>
           <Link className="link" to="/gallery" on>Gallery</Link>
         </p>
-        <p>
+        <p onClick={onClose}>
           <Link className="link" to="/upcoming-events">Events</Link>
         </p>
-        <p>
+        <p onClick={onClose}>
+           <div>
+              {/* <Link className='link' to="/AllEventsFacilityBooking">Bookings</Link> */}
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  style={{padding :"0"}}
+                >
+                  Bookings{" "}
+                  <svg
+                    width="14"
+                    height="8"
+                    viewBox="0 0 14 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="dropdropicon"
+                  >
+                    <path
+                      d="M0.992812 0.919667C0.666146 1.24633 0.666146 1.773 0.992812 2.09967L6.53281 7.63967C6.79281 7.89967 7.21281 7.89967 7.47281 7.63967L13.0128 2.09967C13.3395 1.773 13.3395 1.24633 13.0128 0.919668C12.6861 0.593001 12.1595 0.593001 11.8328 0.919668L6.99948 5.74633L2.16615 0.913001C1.84615 0.593001 1.31281 0.593001 0.992812 0.919667Z"
+                      fill="#1E73BE"
+                    />
+                  </svg>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <Link
+                    to="/AllEventsFacilityBooking"
+                    className="dropdown-item"
+                  >
+                    Events Facility
+                  </Link>
+                  <Link to="/SportsFacility" className="dropdown-item">
+                    Sports Facility
+                  </Link>
+                  <Link to="/SportsClub" className="dropdown-item">
+                    Sports Clubs
+                  </Link>
+                </div>
+              </li>
+            </div>
+        </p>
+        <p onClick={onClose}>
           <Link className="link" to="/contact-us">Contact Us</Link>
+        </p>
+
+        <p onClick={onClose}>
+        <Link to="/login">
+          <div className="btn" style={{padding : "0"}}>
+            <button style={{ cursor: "pointer" }}>Member Login</button>
+          </div>
+        </Link>
         </p>
       </Drawer>
     </div>
