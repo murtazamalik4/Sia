@@ -13,9 +13,9 @@ function SportsClub() {
 
             <div className="events_component_1">
                 <div className="events_1">
-                    <h1>SPORTS CLUB</h1>
+                    <h1>SPORTS SECTION</h1>
                 </div>
-                <div className="events_2">HOME - Bookings - Sports Club - All Sports Club</div>
+                <div className="events_2">HOME - Bookings - Sports Section - All Sports Section</div>
             </div>
 
             <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", width: "60vw", margin: "auto", marginTop: "90px" }}>
@@ -29,8 +29,8 @@ function SportsClub() {
 
             <div className='Card_Events'>
                 <div class="sports_club"> 
-                    <button div className = "sports_club_active" onClick={()=>setSportsClub(true)}>All Sports Club</button>
-                    <button onClick={()=>setSportsClub(false)}>My Sports Club</button>
+                    <button div className = "sports_club_active" onClick={()=>setSportsClub(true)}>All Sports Section</button>
+                    <button onClick={()=>setSportsClub(false)}>My Sports Section</button>
                 </div>
                 {SportsClub ==1?
                 <div>

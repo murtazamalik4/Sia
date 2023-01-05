@@ -8,13 +8,13 @@ function SportsClubDetails() {
     <div >
          <div className="events_component_1">
         <div className="events_1">
-          <h1>SPORTS CLUB</h1>
+          <h1>SPORTS SECTION</h1>
         </div>
-        <div className="events_2">Home - Bookings - Sports Club - All Sports Club - Sports Club 1</div>
+        <div className="events_2">Home - Bookings - Sports Section - All Sports Section - Sports Section 1</div>
       </div>
 
       <div className='sportClub_head'>
-        <div>Sports Club 1</div>
+        <div>Sports Section 1</div>
         <div>10 seats Available</div>
       </div>
         <div className="">
