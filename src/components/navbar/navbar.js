@@ -82,7 +82,7 @@ function Navbar() {
                     Sports Facility
                   </Link>
                   <Link to="/SportsClub" className="dropdown-item">
-                    Sports Clubs
+                    Sports Sections
                   </Link>
                 </div>
               </li>
@@ -192,7 +192,7 @@ function Navbar() {
                     Sports Facility
                   </Link>
                   <Link to="/SportsClub" className="dropdown-item">
-                    Sports Clubs
+                    Sports Sections
                   </Link>
                 </div>
               </li>
