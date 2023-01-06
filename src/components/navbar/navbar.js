@@ -198,6 +198,7 @@ function Navbar() {
               </li>
             </div>
         </p>
+        
         <p onClick={onClose}>
           <Link className="link" to="/contact-us">Contact Us</Link>
         </p>
