@@ -1,22 +1,23 @@
 .Login_main{
     font-family: 'Open Sans';
     font-style: normal;
+    overflow-x: hidden;
 }
 
 .Login_component_2{
     background: url(../../../public/assets/images/Rectangle\ 75.png) no-repeat center;
     background-size: cover;
-    margin: 20px 0;
+    margin: 2rem 0;
     display: flex;
     justify-content: center;
     text-align: center;
     color: #ffffff;
-    padding: 50px;
+    padding: 5rem;
     align-items: center;
     font-weight: 400;
-    height: 300px;
-    font-size: 20px;
-    line-height: 38px;
+    height: 30rem;
+    font-size: 2rem;
+    line-height: 3.8rem;
     flex-direction: column;
 }
 
@@ -24,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top:50px;
+    padding-top:5rem;
     
 height: 710px;
     background-color:#FFE7EB; 
@@ -32,74 +33,74 @@ height: 710px;
 
 .login_information{
     background-color: #ffffff;
-    padding: 30px 50px;
-    width: 525px;
-    height: 568px;
+    padding: 3rem 5rem;
+    width: 52.5rem;
+    height: 56.8rem;
 }
 
 .login_info_head{
     font-weight: 700;
-    font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    line-height: 41px;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    line-height: 4.1rem;
 }
 
 .id , .pass{
     font-weight: 600;
-    margin-bottom: 10px;
-    font-size: 18px;
-    line-height: 25px;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
 }
 input[type=text],input[type=password] {
     background: #FFFFFF;
-    border: 1px solid #8692A6;
-    margin-bottom: 15px;
-    border-radius: 6px;
-    width: 426px;
-    height: 64px;
-    padding: 20px;
+    border: .1rem solid #8692A6;
+    margin-bottom: 1.5rem;
+    border-radius: .6rem;
+    width: 42.6rem;
+    height: 6.4rem;
+    padding: 2rem;
 }
 
 .signup{
     background: #1E73BE;
-    padding: 50px 50px;
-    width: 520px;
-    height: 568px;
+    padding: 5rem 5rem;
+    width: 52rem;
+    height: 56.8rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: centre;
+    align-items: center;
 }
 
 
 .log_in_btn{
-    width: 426px;
-    height: 64px;
+    width: 42.6rem;
+    height: 6.4rem;
     color: #ffffff;
-    font-size: 18px;
-    margin-top: 25px;
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
     cursor:pointer;
 }
 
 .forgot{
-    margin-top: 40px;
+    margin-top: 4rem;
     text-align: right;
 
 }
 
 .signup_head{
     font-weight: 700;
-font-size: 30px;
-line-height: 41px;
+font-size: 3rem;
+line-height: 4.1rem;
 color: #FFFFFF;
 }
 
 .signup_component{
     font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-margin-bottom: 234px;
+font-size: 2rem;
+line-height: 2.4rem;
+margin-bottom: 23.4rem;
 color: #FFFFFF;
 
 }
@@ -108,12 +109,12 @@ color: #FFFFFF;
 }
 
 .signup_in_btn{
-    width: 426px;
-    height: 64px;
+    width: 42.6rem;
+    height: 6.4rem;
     background-color: #ffffff;
     color: #1E73BE;
-    font-size: 18px;
-    margin-top: 25px;
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
     cursor: pointer;
 }
 @media only screen and (max-width: 1100px) {
@@ -128,22 +129,22 @@ color: #FFFFFF;
     }
     .login_info_head{
         font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
     }
     .id , .pass{
-        font-size: 14px;
+        font-size: 1.4rem;
     }
     
     .signup{
         
-height: 248px;
+height: 24.8rem;
     }
     .signup_component{
         margin-bottom: initial;
-        margin-bottom: 10px;
+        margin-bottom: 1rem;
     }
     .events_component_1{
-        height: 300px;
+        height: 30rem;
     }
 }

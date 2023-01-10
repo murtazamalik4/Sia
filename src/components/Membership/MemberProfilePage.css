@@ -117,8 +117,8 @@
 }
 
 .memberprofilepage .profilepagemain .userinfo .fname span:nth-child(2),.mobile span:nth-child(2),.email span:nth-child(2),.location span:nth-child(2){
-    /* width: 71px; */
-    width: 7.1rem;
+    /* width: 7.1rem; */
+    width: 20rem;
     /* height: 20px; */
     height: 2rem;
     font-family: 'Roboto';
@@ -764,11 +764,13 @@
     }
 
     .memberprofilepage{
-        height: 114rem;
+        /* height: 114rem; */
+        height: 129rem;
     }
 
     .memberprofilepage .profilepagemain{
-        height: 93rem;
+        /* height: 93rem; */
+        height: 108rem;
     }
 
     .memberprofilepage .profilepagemain .mobnavigation{
