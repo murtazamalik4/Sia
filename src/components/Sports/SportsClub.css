@@ -45,3 +45,11 @@
     color: #00AB6F;
 
 }
+
+@media screen and (max-width: 600px){
+    .sports_club{
+        position: relative;
+        left: -17%;
+        margin-bottom: 9.2rem;
+    }
+}

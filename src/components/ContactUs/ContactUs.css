@@ -1,13 +1,13 @@
 .Contact_us_Row{
-    margin-top: 66px;
+    margin-top: 6.6rem;
     display: flex;
-    margin-left: 120px;
+    margin-left: 12rem;
 }
 .Col_1{
    background: #1E73BE;
-   margin-left: 20px;
-   padding:56px 30px;
-   height: 550px;
+   margin-left: 2rem;
+   padding:5.6rem 3rem;
+   height: 55rem;
    width: 40vw;
    color: white;
    text-align: center;
@@ -22,91 +22,88 @@
     
  }
 .Col_1 div:nth-child(1){
-    width: 59.88px;
-    height: 59.88px;
-
+    width: 5.988rem;
+    height: 5.988rem;
 }
 
 .Col_1 div:nth-child(2) {
-    margin-top: 37px;
-    margin-bottom: 25px;
+    margin-top: 3.7rem;
+    margin-bottom: 2.5rem;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 .Col_1 div:nth-child(3) {
    
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 .Col_1 div:nth-child(4) {
-    margin-top:88px;
+    margin-top:8.8rem;
     font-weight: 700;
-font-size: 20px;
+    font-size: 2rem;
 }
 
 .send_us{
-    margin-top: 72px;
-    margin-bottom: 100px;
-    margin-left: 120px;
-    margin-right: 120px;
-    padding-top: 39px;
-    padding-left: 102px;
-    padding-bottom: 39px;
-    padding-right: 80px;
+    margin-top: 7.2rem;
+    margin-bottom: 10rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    padding-top: 3.9rem;
+    padding-left: 10.2rem;
+    padding-bottom: 3.9rem;
+    padding-right: 8rem;
     width: 83vw;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px .8rem 1.6rem rgba(0, 0, 0, 0.25);
     
 }
 .send_us{
     font-weight: 700;
-    font-size: 28px;
+    font-size: 2.8rem;
 }
 .input_to_send{
     display: flex;
     flex-direction: row;
-    margin-top: 49px;
+    margin-top: 4.9rem;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 
 .send_us form{
     font-weight: 600;
-    font-size: 18px;
-   
+    font-size: 1.8rem;
 }
+
 .youmsg{
     width: 100%;
 }
 
 .send_us input{
         outline: 0;
-        border-width: 0 0 2px;
+        border-width: 0 0 .2rem;
         border-radius: 0;
         border-color: #D0D0D0;
         padding-bottom: 0px;
-        margin-bottom: 48px;
+        margin-bottom: 4.8rem;
 }
 
 
 .input_to_send div:nth-child(2){
-    margin-left: 70px;
+    margin-left: 7rem;
 }
 
 .check{
-   
     width: initial;
     height: initial;
-
 }
 
 .checkbox div{
- margin-top: -8px; 
- margin-left: 10px;  
+ margin-top: -.8rem; 
+ margin-left: 1rem;  
  font-weight: 400;
-font-size: 16px;
+ font-size: 1.6rem;
 }
 
 .checkbox{
@@ -128,7 +125,7 @@ font-size: 16px;
     }
 
     .Col_1{
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
         width: 80vw;
         
     }
@@ -146,14 +143,14 @@ font-size: 16px;
       margin: initial;
       margin: auto;
       width: 85vw;
-      padding-left: 20px;
-      padding-right: 20px;
-      margin-bottom: 90px;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      margin-bottom: 9rem;
         
     }
     .input_to_send input{
         width: 90%;
-        margin-bottom: 50px;
+        margin-bottom: 5rem;
         padding-top: initial
     }
     
