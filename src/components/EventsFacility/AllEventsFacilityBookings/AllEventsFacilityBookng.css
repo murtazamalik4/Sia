@@ -1,29 +1,28 @@
 .eventsFacilityBookingCard{
     display: flex;
-    padding: 50px 150px;
-    margin-bottom: 40px;
+    padding: 5rem 15rem;
+    margin-bottom: 4rem;
     
 }
 .events_amenties_card{
     display: flex;
     flex-direction: row; 
-
 }
 
 .events_amenties{
     font-weight: 700;
-font-size: 24px;
-line-height: 32px;
-margin-bottom: 38px;
-margin-top: 48px;
+font-size: 2.4rem;
+line-height: 3.2rem;
+margin-bottom: 3.8rem;
+margin-top: 4.8rem;
 /* identical to box height, or 133% */
 }
 
 .events_amenties_one div , .events_amenties_two div{
     font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-margin-bottom: 30px;
+font-size: 1.6rem;
+line-height: 2.4rem;
+margin-bottom: 3rem;
 
 /* identical to box height, or 150% */
 
@@ -36,67 +35,67 @@ color: #12101C;
 }
 
 .events_amenties_one{
-    margin-right: 48px;
+    margin-right: 4.8rem;
 }
 .events_amenties_card img{
-    margin-right: 20px;
+    margin-right: 2rem;
 }
 
 
 .EventsFacilityBooking_card_two{
     background: #FFFFFF;
-    padding: 24px;
+    padding: 2.4rem;
     /* height: 530px; */
-    height: 570px;
+    height: 57rem;
 /* gray/200 */
 
-border: 1px solid #E5E7EB;
+border: .1rem solid #E5E7EB;
 /* shadow-xl */
 width: 40%;
 
-box-shadow: 0px 20px 25px rgba(31, 41, 55, 0.1), 0px 10px 10px rgba(31, 41, 55, 0.04);
-border-radius: 8px;
+box-shadow: 0px 2rem 2.5rem rgba(31, 41, 55, 0.1), 0px 10px 10px rgba(31, 41, 55, 0.04);
+border-radius: .8rem;
 }
 
 .EventsFacilityBooking_card_one{
     width: 60%;
-    margin-right: 40px;
+    margin-right: 4rem;
 }
 
 .SportsEvents_info{
-    border-top:1px solid #BCD7F7;
-    border-bottom:1px solid #BCD7F7 ;
-    padding: 30px 0px;
+    border-top:.1rem solid #BCD7F7;
+    border-bottom:.1rem solid #BCD7F7 ;
+    padding: 3rem 0px;
 }
 .SportsEvents_info_head{
     font-weight: 700;
-font-size: 24px;
-line-height: 32px;
+font-size: 2.4rem;
+line-height: 3.2rem;
 }
 
 .timing_flex_main{
-    border-bottom: 1px solid #E5E7EB;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    border-bottom: .1rem solid #E5E7EB;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .EventsFacilityBooking_card_two_head{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .EventsFacilityBooking_card_two_head div:nth-child(1){
     font-weight: 700;
-font-size: 20px;
-line-height: 17px;
+font-size: 2rem;
+line-height: 1.7rem;
 }
 
 .EventsFacilityBooking_card_two_head div:nth-child(2) span{
     font-weight: 700;
-font-size: 20px;
-line-height: 32px;
+font-size: 2rem;
+line-height: 3.2rem;
 /* identical to box height, or 160% */
 
 
@@ -108,8 +107,8 @@ color: #1E73BE;
 
 .EventsFacilityBooking_card_two_head div:nth-child(2){
     font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+font-size: 1.6rem;
+line-height: 2.4rem;
 /* or 150% */
 
 display: flex;
@@ -121,13 +120,13 @@ color: #54595F;
 }
 
 .EventsFacilityBooking_card_two_input{
-    padding: 4px;
+    padding: .4rem;
     /* white */
 
 background: #FFFFFF;
 border: 1px solid #BCD7F6;
-margin-bottom: 28px;
-border-radius: 8px;
+margin-bottom: 2.8rem;
+border-radius: .8rem;
 }
 
 .Card_two_input{
@@ -135,13 +134,13 @@ border-radius: 8px;
     display: flex;
 }
 .card_two_input_one div{
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .card_two_input_one label{
     font-weight: 600;
-font-size: 14px;
-line-height: 16px;
+font-size: 1.4rem;
+line-height: 1.6rem;
 /* identical to box height, or 114% */
 
 
@@ -164,7 +163,7 @@ color: #12101C;
 }
 
 .card_input_margin{
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 
@@ -177,24 +176,24 @@ color: #12101C;
 
 .timing_flex .left{
     font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+font-size: 1.6rem;
+line-height: 2.4rem;
 /* identical to box height, or 150% */
 
 display: flex;
 align-items: center;
 
 /* Heading Text */
-margin-bottom: 8px;
+margin-bottom: .8rem;
 
 color: #12101C;
 }
 
 .timing_flex .right{
     font-weight: 700;
-    margin-bottom: 8px;
-font-size: 16px;
-line-height: 24px;
+    margin-bottom: .8rem;
+font-size: 1.6rem;
+line-height: 2.4rem;
 /* identical to box height, or 150% */
 
 display: flex;
@@ -219,31 +218,31 @@ color: #12101C;
 
 
 .events_facility_desc{
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .FacilityEvent_info {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .card-col {
-    padding: 85px;
+    padding: 8.5rem;
 }
 
 .content-holder {
-    padding: 10px;
+    padding: 1rem;
 }
 
 .events-card-holder {
     display: flex;
-    padding: 50px;
+    padding: 5rem;
 }
 
 .events-card {
     display: flex; 
     flex-direction: column;
     justify-content: start;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px .8rem 1.6rem rgba(0, 0, 0, 0.25);
     background-color: white !important;
 }
 
@@ -251,18 +250,18 @@ color: #12101C;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 800;
-    font-size: 24px;
-    padding-bottom: 10px;
+    font-size: 2.4rem;
+    padding-bottom: 1rem;
 }
 
 .card-sub-header {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 150%;
     text-transform: uppercase;
-    padding-bottom: 25px;
+    padding-bottom: 2.5rem;
 
 }
 
@@ -279,23 +278,23 @@ color: #12101C;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 2.8rem;
     text-transform: capitalize;
     font-feature-settings: 'liga' off;
     color: #161616;
-    padding-bottom: 15px;
-    padding-top: 50px;
+    padding-bottom: 1.5rem;
+    padding-top: 5rem;
 }
 
 .intro-text {
-    padding-top: 25px ;
-    padding-left: 150px ;
-    padding-right: 150px ;
+    padding-top: 2.5rem ;
+    padding-left: 10rem ;
+    padding-right: 10rem ;
 }
 
 .separator {
-    width: 63px;
-    height: 8px;
+    width: 6.3rem;
+    height: .8rem;
     background: #F31237;
 }
 
@@ -310,8 +309,8 @@ color: #12101C;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    padding-left: 10px;
+    font-size: 1.4rem;
+    padding-left: 1rem;
 }
 
 .detail-icon-label-container {
@@ -354,4 +353,10 @@ color: #12101C;
         flex-direction: column;
     }
     
+}
+
+@media screen and  (max-width: 600px){
+    .card-col{
+        padding: 8.5rem 0rem;
+    }
 }

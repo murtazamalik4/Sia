@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     margin-top: 76px;
+    overflow-x: hidden;
 }
 
 .membership_summary{
@@ -21,21 +22,21 @@
 }
 
 .membership_head{
-    width: 602px;
-    height: 61px;
+    width: 60.2rem;
+    height: 6.1rem;
 
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 800;
-    font-size: 40px;
-    line-height: 77px;
+    font-size: 4rem;
+    line-height: 7.7rem;
     /* or 192% */
     
     text-transform: capitalize;
     font-feature-settings: 'liga' off;
     
     color: #161616;
-    margin-bottom: 18px;
+    margin-bottom: 1.8rem;
 }
 
 .membership_plan{
@@ -43,9 +44,9 @@
     background: #F8FAFC;
     border: 1px solid #E3E8EF;
     backdrop-filter: blur(8px);
-    border-radius: 12px;  
-    padding: 22px 20px;
-    margin-bottom: 16px;
+    border-radius: 1.2rem;  
+    padding: 2.2rem 2rem;
+    margin-bottom: 1.6rem;
 }
 .discount{
     font-weight: 700;
@@ -289,5 +290,9 @@ color: #54595F;
 @media only screen and (max-width: 610px) {
     .card_info div{
         width: 45%;
+    }
+
+    .membership_head{
+        font-size: 3rem;
     }
 }
