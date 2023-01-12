@@ -7,3 +7,9 @@
     padding: 4rem 3rem;
     /* align-items: flex-end; */
   }
+
+  @media screen and (max-width: 500px){
+    .slider-main-title{
+      color: red;
+    }
+  }
