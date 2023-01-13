@@ -4,7 +4,7 @@ import './EventsFacility.css'
 
 function EventsFacility() {
   return (
-    <div>
+    <div >
         <div className="events_component_1">
         <div className="events_1">
           <h1>EVENTS FACILITY</h1>

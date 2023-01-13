@@ -1,9 +1,9 @@
 .sports_club{
     display: flex;
     /* margin-bottom: 20px; */
-    margin-left: 133px;
-    margin-bottom: 50px;
-    width: 470px;
+    margin-left: 13.3rem;
+    margin-bottom: 5rem;
+    width: 47rem;
     align-items: flex-start;
     justify-content: space-between;
 }
@@ -14,8 +14,8 @@
     border: none;
     color:#F31237;
     font-weight: 800;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
     cursor: pointer;
     /* or 120% */
     outline: none;
@@ -24,8 +24,8 @@
 
 .SportsEvents{
     font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
 
     color: #000000;
 }
@@ -34,14 +34,28 @@
     background: #EDFFF9;
     padding: 0px;
     margin-bottom: initial;
-    border-radius: 6px;
+    border-radius: .6rem;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
     /* identical to box height */
-    padding: 5px;
+    padding: .5rem;
     text-align: justify;
 
     color: #00AB6F;
 
+}
+
+@media screen and (max-width: 600px){
+    .sports_club{
+        position: relative;
+        left: -17%;
+        margin-bottom: 9.2rem;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .sports_club{
+        left: -36%;
+    }
 }

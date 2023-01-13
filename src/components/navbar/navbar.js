@@ -181,7 +181,7 @@ function Navbar() {
                     />
                   </svg>
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style={{width : "14.2rem", fontSize : "12px"}}>
                   <Link
                     to="/AllEventsFacilityBooking"
                     className="dropdown-item"

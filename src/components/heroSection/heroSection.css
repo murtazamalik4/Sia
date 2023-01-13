@@ -5,9 +5,10 @@
     background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     padding: 4rem 3rem;
-    border: 10px solid red;
+
   }
 
 .nav-chit-club.tparrows{
   display: none;
 }
+

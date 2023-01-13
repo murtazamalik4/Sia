@@ -1,13 +1,12 @@
 import React from "react";
-import './heroSection.css'
-import useScript from '../../hooks/useScript';
+import "./heroSection.css";
+import useScript from "../../hooks/useScript";
 
 function HeroSection() {
-
-    useScript('/customjs/custom_slider.js');
-    useScript('/customjs/rbtools.min.js');
-    useScript('/customjs/rs6.min.js');
-    useScript('/customjs/custom_slider2.js');
+  useScript("/customjs/custom_slider.js");
+  useScript("/customjs/rbtools.min.js");
+  useScript("/customjs/rs6.min.js");
+  useScript("/customjs/custom_slider2.js");
 
     return (<div style={{ minHeight: '100vh' }}>
         <link property="stylesheet" rel='stylesheet' id='e-animations-css' href='/customcss/e-animations.min.css' type='text/css' media='all' />
@@ -54,4 +53,4 @@ function HeroSection() {
     </div>)
 }
 
-export default HeroSection
+export default HeroSection;
