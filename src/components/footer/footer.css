@@ -9,7 +9,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("../../../public/assets/images/image13.jpg");
+    background-image: linear-gradient(0deg, #1e73be56, #1e73be46),url("../../../public/assets/images/image13.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 60px;
@@ -57,9 +57,8 @@
 
 .quick-links-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* border: 2px solid red; */
+    width: fit-content;
 }
 
 .quick-link-heading {
@@ -187,7 +186,8 @@
     background-image: url("../../../public/assets/icons/call.svg");
     cursor: pointer;
     width: 25px;
-    height: 25px;
+    background-repeat: no-repeat;
+    height: 30px;
     background-size: 100%;
     margin-right: 15px;
 }
@@ -196,7 +196,8 @@
     background-image: url("../../../public/assets/icons/mail.svg");
     cursor: pointer;
     width: 25px;
-    height: 25px;
+    height: 30px;
+    background-repeat: no-repeat;
     background-size: 100%;
     margin-right: 15px;
 
@@ -206,7 +207,8 @@
     background-image: url("../../../public/assets/icons/address.svg");
     cursor: pointer;
     width: 25px;
-    height: 25px;
+    height: 30px;
+    background-repeat: no-repeat;
     background-size: 100%;
     margin-right: 15px;
 
@@ -260,6 +262,7 @@
         background-size: cover;
         padding: 25px 15px;
     }
+    
 
     .footer-logo-col {
         width: 95%;
