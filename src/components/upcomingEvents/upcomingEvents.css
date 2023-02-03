@@ -3,12 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80vw;
-    margin: auto;
     position: relative;
     z-index: 3;
     margin-top: 30px;
     margin-bottom: 60px;
+    margin: auto;
 }
 
 .eventBoxContainer{
@@ -24,30 +23,44 @@
     font-weight: 800;
     line-height: 76px;
     margin-bottom: 18px;
+    
 }
 
 .events{
+    justify-content: center;
+    align-items: center;
     display: flex;
     margin-top:45px;
+}
+.image_Overlay{
+    position: absolute;
+    top:26px;
+    z-index: 999;
+    bottom: 26px;
+    left:26px;
+    right: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F31237;
 }
 
 .event-1 , .event-2 , .event-3{
     margin: 7px;
 }
 
+
 .desc{
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    margin-top: 49px;
-    gap: 10px;
-    /* margin-left: -29px; */
+    position: absolute;
+    text-align: center;
+    top:400px;
+    left:33px;
+    right: 33px;
 }
 
 .calendar{
     background-color: #F31237;
     border-radius: 8px;
-    /* width: 59px; */
     text-align: center;
     font-family: 'Open Sans';
     font-style: normal;
@@ -85,8 +98,17 @@
     margin-bottom: 20px;
 }
 
+.descriptions .first{
+    color: #FFFFFF;
+}
+
 .second_desc{
     width: 220px;
+}
+.events_Image{
+    object-fit:cover;
+    width:20vw;
+    height:583px;
 }
 
 @media only screen and (max-width: 960px) {
@@ -96,6 +118,10 @@
     .events {
         flex-direction: column;
     }
+    .events_Image{
+        width: 80vw;
+    }
+    
     .event-1,.event-2,.event-3 {
         margin-bottom: 50px;
     }

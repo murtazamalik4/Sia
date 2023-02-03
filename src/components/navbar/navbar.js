@@ -96,7 +96,7 @@ function Navbar() {
         </div>
         <Link to="/login">
           <div className="btn">
-            <button style={{ cursor: "pointer" }}>Member Login</button>
+            <button style={{ cursor: "pointer",fontSize:"13px" }}>Member Login</button>
           </div>
         </Link>
 
