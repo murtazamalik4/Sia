@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.368c0d54.css",
-    "main.js": "/static/js/main.46406bb7.js",
+    "main.css": "/static/css/main.331ff72b.css",
+    "main.js": "/static/js/main.35987d4b.js",
     "static/media/eventbg.jpg": "/static/media/eventbg.55bc26236ee293f08ff8.jpg",
     "static/media/footer-bg.png": "/static/media/footer-bg.b30c6938de59af5062ca.png",
     "static/media/Rectangle 64.png": "/static/media/Rectangle 64.e68c7039a53912bfb5e0.png",
@@ -11,17 +11,17 @@
     "static/media/dark-textured-background_1017-1900.png": "/static/media/dark-textured-background_1017-1900.09c10a273e8541fc5f9d.png",
     "static/media/sia-logo.png": "/static/media/sia-logo.48a6ea45339268de6219.png",
     "static/media/twitter.svg": "/static/media/twitter.82e106fb62b1f24a6371.svg",
+    "index.html": "/index.html",
     "static/media/marker.svg": "/static/media/marker.4359d380f088caaed65d.svg",
     "static/media/fb.svg": "/static/media/fb.ada08b43b8e214ff9beb.svg",
-    "index.html": "/index.html",
     "static/media/mail.svg": "/static/media/mail.263dbdfbab85ec3085db.svg",
     "static/media/call.svg": "/static/media/call.6e76ea5388f8347cf2a0.svg",
     "static/media/address.svg": "/static/media/address.72fa0029902f6d598ad8.svg",
-    "main.368c0d54.css.map": "/static/css/main.368c0d54.css.map",
-    "main.46406bb7.js.map": "/static/js/main.46406bb7.js.map"
+    "main.331ff72b.css.map": "/static/css/main.331ff72b.css.map",
+    "main.35987d4b.js.map": "/static/js/main.35987d4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.368c0d54.css",
-    "static/js/main.46406bb7.js"
+    "static/css/main.331ff72b.css",
+    "static/js/main.35987d4b.js"
   ]
 }

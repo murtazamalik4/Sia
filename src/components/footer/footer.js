@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 function Footer() {
@@ -12,11 +13,19 @@ function Footer() {
         // document.body.appendChild(script);
     }, []);
 
+    const scrollToTop=()=>{
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+      }
+
     return (
         <>
 
             <div className="footer">
                 <div className="footer-inner ">
+                    <div className="footer-inner-flex">
                     <div className="footer-logo-col">
                         <div className="logo-container">
                             <div className="sia-logo"></div>
@@ -40,10 +49,41 @@ function Footer() {
                             <a target={"_blank"} href='https://www.facebook.com/SingaporeIndianAssociation/' ><div className="fb-icon"></div></a>
                             <a target={"_blank"} href='https://mobile.twitter.com/francisdcruz8' ><div className="tw-icon"></div></a>
                         </div>
-
+                    </div>
+                    </div>
+                    <div className="scrollToTop"><button onClick={()=>scrollToTop()}><img src="images/arrow-up-solid.svg"/></button></div>
+                    <div className="footer-inner-inner ">
+                    <div className="footer-inner-flex-column">
+                    <div className="footer-logo-col">
+                        <div className="logo-container">
+                            <div className="sia-logo"></div>
+                        </div>
+                        <div className="title-container">
+                            Singapore Indian Association
+                        </div>
+                        <div className="asso-desc-container">
+                            The <strong>Singapore Indian Association</strong> was <br /> established in 1923 with the objective <br /> of promoting the social, physical, <br /> intellectual, cultural and the <br /> general welfare of its members.
+                        </div>
+                    </div>
+                    <div className="second_container">
+                    <div className="quick-links-container">
+                        <div className="quick-link-heading">Quick Links</div>
+                        <div className="quick-link-links">About Us</div>
+                        <div className="quick-link-links">Event</div>
+                        <div className="quick-link-links">Gallery</div>
+                    </div>
+                    <div className="">
+                        <div className="social-heading">Follow Us</div>
+                        <div className="social-icons-container">
+                            <a target={"_blank"} href='https://www.facebook.com/SingaporeIndianAssociation/' ><div className="fb-icon"></div></a>
+                            <a target={"_blank"} href='https://mobile.twitter.com/francisdcruz8' ><div className="tw-icon"></div></a>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
                     </div>
                 </div>
-
+                
                 <div className="reach-out-container-holder">
                     <div className="reach-out-container">
                         <div className="reach-out-container-inner">
@@ -71,8 +111,8 @@ function Footer() {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
-
             </div>
 
 

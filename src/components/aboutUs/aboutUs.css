@@ -84,7 +84,9 @@ button {
         justify-content: center;
         align-items: center;
     }
-
+    .main{
+        padding: unset;
+    }
     .image {
         display: flex;
         margin: 20px 0;

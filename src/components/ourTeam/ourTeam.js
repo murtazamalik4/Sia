@@ -183,9 +183,10 @@ function OurTeam({ isVisible }) {
             }}
           >
             <div className="header">Our Team</div>
+            <hr/>
           </motion.div>
 
-          <Swiper
+          <Swiper style={{marginTop:"40px"}}
             className="mySwiper"
             slidesPerView={1}
             spaceBetween={10}
